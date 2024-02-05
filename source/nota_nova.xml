@@ -1,0 +1,1541 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ListaDeclaracoes>
+    <declaracaoImportacao>
+        <adicao>
+            <acrescimo>
+                <codigoAcrescimo>9 </codigoAcrescimo>
+                <denominacao>VALOR DE QUALQUER PARCELA                                   </denominacao>
+                <moedaNegociadaCodigo>220</moedaNegociadaCodigo>
+                <moedaNegociadaNome>DOLAR DOS EUA</moedaNegociadaNome>
+                <valorMoedaNegociada>000000000000215</valorMoedaNegociada>
+                <valorReais>000000000001043</valorReais>
+            </acrescimo>
+            <cideValorAliquotaEspecifica>00000000000</cideValorAliquotaEspecifica>
+            <cideValorDevido>000000000000000</cideValorDevido>
+            <cideValorRecolher>000000000000000</cideValorRecolher>
+            <codigoRelacaoCompradorVendedor>3</codigoRelacaoCompradorVendedor>
+            <codigoVinculoCompradorVendedor>1</codigoVinculoCompradorVendedor>
+            <cofinsAliquotaAdValorem>00965</cofinsAliquotaAdValorem>
+            <cofinsAliquotaEspecificaQuantidadeUnidade>000000000</cofinsAliquotaEspecificaQuantidadeUnidade>
+            <cofinsAliquotaEspecificaValor>0000000000</cofinsAliquotaEspecificaValor>
+            <cofinsAliquotaReduzida>00000</cofinsAliquotaReduzida>
+            <cofinsAliquotaValorDevido>000000000041556</cofinsAliquotaValorDevido>
+            <cofinsAliquotaValorRecolher>000000000041556</cofinsAliquotaValorRecolher>
+            <condicaoVendaIncoterm>FOB</condicaoVendaIncoterm>
+            <condicaoVendaLocal>NINGBO</condicaoVendaLocal>
+            <condicaoVendaMetodoValoracaoCodigo>01</condicaoVendaMetodoValoracaoCodigo>
+            <condicaoVendaMetodoValoracaoNome>METODO 1 - ART. 1 DO ACORDO (DECRETO 92930/86)</condicaoVendaMetodoValoracaoNome>
+            <condicaoVendaMoedaCodigo>220</condicaoVendaMoedaCodigo>
+            <condicaoVendaMoedaNome>DOLAR DOS EUA</condicaoVendaMoedaNome>
+            <condicaoVendaValorMoeda>000000000084525</condicaoVendaValorMoeda>
+            <condicaoVendaValorReais>000000000410309</condicaoVendaValorReais>
+            <dadosCambiaisCoberturaCambialCodigo>1</dadosCambiaisCoberturaCambialCodigo>
+            <dadosCambiaisCoberturaCambialNome>COM COBERTURA CAMBIAL E PAGAMENTO FINAL A PRAZO DE ATE' 180</dadosCambiaisCoberturaCambialNome>
+            <dadosCambiaisInstituicaoFinanciadoraCodigo>00</dadosCambiaisInstituicaoFinanciadoraCodigo>
+            <dadosCambiaisInstituicaoFinanciadoraNome>N/I</dadosCambiaisInstituicaoFinanciadoraNome>
+            <dadosCambiaisMotivoSemCoberturaCodigo>00</dadosCambiaisMotivoSemCoberturaCodigo>
+            <dadosCambiaisMotivoSemCoberturaNome>N/I</dadosCambiaisMotivoSemCoberturaNome>
+            <dadosCambiaisValorRealCambio>000000000000000</dadosCambiaisValorRealCambio>
+            <dadosCargaPaisProcedenciaCodigo>000</dadosCargaPaisProcedenciaCodigo>
+            <dadosCargaUrfEntradaCodigo>0000000</dadosCargaUrfEntradaCodigo>
+            <dadosCargaViaTransporteCodigo>00</dadosCargaViaTransporteCodigo>
+            <dadosMercadoriaAplicacao>REVENDA</dadosMercadoriaAplicacao>
+            <dadosMercadoriaCodigoNaladiNCCA>0000000</dadosMercadoriaCodigoNaladiNCCA>
+            <dadosMercadoriaCodigoNaladiSH>00000000</dadosMercadoriaCodigoNaladiSH>
+            <dadosMercadoriaCodigoNcm>40149090</dadosMercadoriaCodigoNcm>
+            <dadosMercadoriaCondicao>NOVA</dadosMercadoriaCondicao>
+            <dadosMercadoriaMedidaEstatisticaQuantidade>00000038870000</dadosMercadoriaMedidaEstatisticaQuantidade>
+            <dadosMercadoriaMedidaEstatisticaUnidade>QUILOGRAMA LIQUIDO</dadosMercadoriaMedidaEstatisticaUnidade>
+            <dadosMercadoriaNomeNcm>Outros</dadosMercadoriaNomeNcm>
+            <dadosMercadoriaPesoLiquido>000000038870000</dadosMercadoriaPesoLiquido>
+            <dcrCoeficienteReducao>00000</dcrCoeficienteReducao>
+            <dcrIdentificacao>00000000</dcrIdentificacao>
+            <dcrValorDevido>000000000000000</dcrValorDevido>
+            <dcrValorDolar>000000000000000</dcrValorDolar>
+            <dcrValorReal>000000000000000</dcrValorReal>
+            <dcrValorRecolher>000000000000000</dcrValorRecolher>
+            <destaqueNcm>
+                <numeroDestaque>999</numeroDestaque>
+            </destaqueNcm>
+            <fornecedorCidade>City</fornecedorCidade>
+            <fornecedorComplemento>Address</fornecedorComplemento>
+            <fornecedorLogradouro>HARCOURT ROAD</fornecedorLogradouro>
+            <fornecedorNome>Empresa exportadora</fornecedorNome>
+            <fornecedorNumero>12</fornecedorNumero>
+            <freteMoedaNegociadaCodigo>000</freteMoedaNegociadaCodigo>
+            <freteValorMoedaNegociada>000000000003760</freteValorMoedaNegociada>
+            <freteValorReais>000000000018253</freteValorReais>
+            <iiAcordoTarifarioTipoCodigo>0</iiAcordoTarifarioTipoCodigo>
+            <iiAliquotaAcordo>00000</iiAliquotaAcordo>
+            <iiAliquotaAdValorem>01440</iiAliquotaAdValorem>
+            <iiAliquotaPercentualReducao>00000</iiAliquotaPercentualReducao>
+            <iiAliquotaReduzida>00000</iiAliquotaReduzida>
+            <iiAliquotaValorCalculado>000000000062012</iiAliquotaValorCalculado>
+            <iiAliquotaValorDevido>000000000062012</iiAliquotaValorDevido>
+            <iiAliquotaValorRecolher>000000000062012</iiAliquotaValorRecolher>
+            <iiAliquotaValorReduzido>000000000000000</iiAliquotaValorReduzido>
+            <iiBaseCalculo>000000000430642</iiBaseCalculo>
+            <iiFundamentoLegalCodigo>00</iiFundamentoLegalCodigo>
+            <iiMotivoAdmissaoTemporariaCodigo>00</iiMotivoAdmissaoTemporariaCodigo>
+            <iiRegimeTributacaoCodigo>1</iiRegimeTributacaoCodigo>
+            <iiRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</iiRegimeTributacaoNome>
+            <ipiAliquotaAdValorem>00975</ipiAliquotaAdValorem>
+            <ipiAliquotaEspecificaCapacidadeRecipciente>00000</ipiAliquotaEspecificaCapacidadeRecipciente>
+            <ipiAliquotaEspecificaQuantidadeUnidadeMedida>000000000</ipiAliquotaEspecificaQuantidadeUnidadeMedida>
+            <ipiAliquotaEspecificaTipoRecipienteCodigo>00</ipiAliquotaEspecificaTipoRecipienteCodigo>
+            <ipiAliquotaEspecificaValorUnidadeMedida>0000000000</ipiAliquotaEspecificaValorUnidadeMedida>
+            <ipiAliquotaNotaComplementarTIPI>00</ipiAliquotaNotaComplementarTIPI>
+            <ipiAliquotaReduzida>00000</ipiAliquotaReduzida>
+            <ipiAliquotaValorDevido>000000000048033</ipiAliquotaValorDevido>
+            <ipiAliquotaValorRecolher>000000000048033</ipiAliquotaValorRecolher>
+            <ipiRegimeTributacaoCodigo>4</ipiRegimeTributacaoCodigo>
+            <ipiRegimeTributacaoNome>SEM BENEFICIO</ipiRegimeTributacaoNome>
+            <mercadoria>
+                <descricaoMercadoria>Produto 1</descricaoMercadoria>
+                <numeroSequencialItem>01</numeroSequencialItem>
+                <quantidade>00010000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000036750</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 2</descricaoMercadoria>
+                <numeroSequencialItem>02</numeroSequencialItem>
+                <quantidade>00010000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000036750</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 3</descricaoMercadoria>
+                <numeroSequencialItem>03</numeroSequencialItem>
+                <quantidade>00003000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000036750</valorUnitario>
+            </mercadoria>
+            <numeroAdicao>001</numeroAdicao>
+            <numeroDI>123456789</numeroDI>
+            <numeroLI>0000000000</numeroLI>
+            <paisAquisicaoMercadoriaCodigo>1234</paisAquisicaoMercadoriaCodigo>
+            <paisAquisicaoMercadoriaNome>Country</paisAquisicaoMercadoriaNome>
+            <paisOrigemMercadoriaCodigo>1234</paisOrigemMercadoriaCodigo>
+            <paisOrigemMercadoriaNome>Country</paisOrigemMercadoriaNome>
+            <pisCofinsBaseCalculoAliquotaICMS>00000</pisCofinsBaseCalculoAliquotaICMS>
+            <pisCofinsBaseCalculoFundamentoLegalCodigo>00</pisCofinsBaseCalculoFundamentoLegalCodigo>
+            <pisCofinsBaseCalculoPercentualReducao>00000</pisCofinsBaseCalculoPercentualReducao>
+            <pisCofinsBaseCalculoValor>000000000430642</pisCofinsBaseCalculoValor>
+            <pisCofinsFundamentoLegalReducaoCodigo>00</pisCofinsFundamentoLegalReducaoCodigo>
+            <pisCofinsRegimeTributacaoCodigo>1</pisCofinsRegimeTributacaoCodigo>
+            <pisCofinsRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</pisCofinsRegimeTributacaoNome>
+            <pisPasepAliquotaAdValorem>00210</pisPasepAliquotaAdValorem>
+            <pisPasepAliquotaEspecificaQuantidadeUnidade>000000000</pisPasepAliquotaEspecificaQuantidadeUnidade>
+            <pisPasepAliquotaEspecificaValor>0000000000</pisPasepAliquotaEspecificaValor>
+            <pisPasepAliquotaReduzida>00000</pisPasepAliquotaReduzida>
+            <pisPasepAliquotaValorDevido>000000000009043</pisPasepAliquotaValorDevido>
+            <pisPasepAliquotaValorRecolher>000000000009043</pisPasepAliquotaValorRecolher>
+            <relacaoCompradorVendedor>Fabricante é desconhecido</relacaoCompradorVendedor>
+            <seguroMoedaNegociadaCodigo>000</seguroMoedaNegociadaCodigo>
+            <seguroValorMoedaNegociada>000000000000000</seguroValorMoedaNegociada>
+            <seguroValorReais>000000000001035</seguroValorReais>
+            <sequencialRetificacao>00</sequencialRetificacao>
+            <valorMultaARecolher>000000000000000</valorMultaARecolher>
+            <valorMultaARecolherAjustado>000000000000000</valorMultaARecolherAjustado>
+            <valorReaisFreteInternacional>000000000018253</valorReaisFreteInternacional>
+            <valorReaisSeguroInternacional>000000000001035</valorReaisSeguroInternacional>
+            <valorTotalCondicaoVenda>8452500000</valorTotalCondicaoVenda>
+            <vinculoCompradorVendedor>Não há vinculação entre comprador e vendedor.</vinculoCompradorVendedor>
+        </adicao>
+        <adicao>
+            <acrescimo>
+                <codigoAcrescimo>9 </codigoAcrescimo>
+                <denominacao>VALOR DE QUALQUER PARCELA                                   </denominacao>
+                <moedaNegociadaCodigo>220</moedaNegociadaCodigo>
+                <moedaNegociadaNome>DOLAR DOS EUA</moedaNegociadaNome>
+                <valorMoedaNegociada>000000000001003</valorMoedaNegociada>
+                <valorReais>000000000004868</valorReais>
+            </acrescimo>
+            <cideValorAliquotaEspecifica>00000000000</cideValorAliquotaEspecifica>
+            <cideValorDevido>000000000000000</cideValorDevido>
+            <cideValorRecolher>000000000000000</cideValorRecolher>
+            <codigoRelacaoCompradorVendedor>3</codigoRelacaoCompradorVendedor>
+            <codigoVinculoCompradorVendedor>1</codigoVinculoCompradorVendedor>
+            <cofinsAliquotaAdValorem>00965</cofinsAliquotaAdValorem>
+            <cofinsAliquotaEspecificaQuantidadeUnidade>000000000</cofinsAliquotaEspecificaQuantidadeUnidade>
+            <cofinsAliquotaEspecificaValor>0000000000</cofinsAliquotaEspecificaValor>
+            <cofinsAliquotaReduzida>00000</cofinsAliquotaReduzida>
+            <cofinsAliquotaValorDevido>000000000025735</cofinsAliquotaValorDevido>
+            <cofinsAliquotaValorRecolher>000000000025735</cofinsAliquotaValorRecolher>
+            <condicaoVendaIncoterm>FOB</condicaoVendaIncoterm>
+            <condicaoVendaLocal>NINGBO</condicaoVendaLocal>
+            <condicaoVendaMetodoValoracaoCodigo>01</condicaoVendaMetodoValoracaoCodigo>
+            <condicaoVendaMetodoValoracaoNome>METODO 1 - ART. 1 DO ACORDO (DECRETO 92930/86)</condicaoVendaMetodoValoracaoNome>
+            <condicaoVendaMoedaCodigo>220</condicaoVendaMoedaCodigo>
+            <condicaoVendaMoedaNome>DOLAR DOS EUA</condicaoVendaMoedaNome>
+            <condicaoVendaValorMoeda>000000000036283</condicaoVendaValorMoeda>
+            <condicaoVendaValorReais>000000000176128</condicaoVendaValorReais>
+            <dadosCambiaisCoberturaCambialCodigo>1</dadosCambiaisCoberturaCambialCodigo>
+            <dadosCambiaisCoberturaCambialNome>COM COBERTURA CAMBIAL E PAGAMENTO FINAL A PRAZO DE ATE' 180</dadosCambiaisCoberturaCambialNome>
+            <dadosCambiaisInstituicaoFinanciadoraCodigo>00</dadosCambiaisInstituicaoFinanciadoraCodigo>
+            <dadosCambiaisInstituicaoFinanciadoraNome>N/I</dadosCambiaisInstituicaoFinanciadoraNome>
+            <dadosCambiaisMotivoSemCoberturaCodigo>00</dadosCambiaisMotivoSemCoberturaCodigo>
+            <dadosCambiaisMotivoSemCoberturaNome>N/I</dadosCambiaisMotivoSemCoberturaNome>
+            <dadosCambiaisValorRealCambio>000000000000000</dadosCambiaisValorRealCambio>
+            <dadosCargaPaisProcedenciaCodigo>000</dadosCargaPaisProcedenciaCodigo>
+            <dadosCargaUrfEntradaCodigo>0000000</dadosCargaUrfEntradaCodigo>
+            <dadosCargaViaTransporteCodigo>00</dadosCargaViaTransporteCodigo>
+            <dadosMercadoriaAplicacao>REVENDA</dadosMercadoriaAplicacao>
+            <dadosMercadoriaCodigoNaladiNCCA>0000000</dadosMercadoriaCodigoNaladiNCCA>
+            <dadosMercadoriaCodigoNaladiSH>00000000</dadosMercadoriaCodigoNaladiSH>
+            <dadosMercadoriaCodigoNcm>70109090</dadosMercadoriaCodigoNcm>
+            <dadosMercadoriaCondicao>NOVA</dadosMercadoriaCondicao>
+            <dadosMercadoriaMedidaEstatisticaQuantidade>00000181500000</dadosMercadoriaMedidaEstatisticaQuantidade>
+            <dadosMercadoriaMedidaEstatisticaUnidade>QUILOGRAMA LIQUIDO</dadosMercadoriaMedidaEstatisticaUnidade>
+            <dadosMercadoriaNomeNcm>Outros</dadosMercadoriaNomeNcm>
+            <dadosMercadoriaPesoLiquido>000000181500000</dadosMercadoriaPesoLiquido>
+            <dcrCoeficienteReducao>00000</dcrCoeficienteReducao>
+            <dcrIdentificacao>00000000</dcrIdentificacao>
+            <dcrValorDevido>000000000000000</dcrValorDevido>
+            <dcrValorDolar>000000000000000</dcrValorDolar>
+            <dcrValorReal>000000000000000</dcrValorReal>
+            <dcrValorRecolher>000000000000000</dcrValorRecolher>
+            <fornecedorCidade>City</fornecedorCidade>
+            <fornecedorComplemento>Address</fornecedorComplemento>
+            <fornecedorLogradouro>HARCOURT ROAD</fornecedorLogradouro>
+            <fornecedorNome>Empresa exportadora</fornecedorNome>
+            <fornecedorNumero>12</fornecedorNumero>
+            <freteMoedaNegociadaCodigo>000</freteMoedaNegociadaCodigo>
+            <freteValorMoedaNegociada>000000000017558</freteValorMoedaNegociada>
+            <freteValorReais>000000000085234</freteValorReais>
+            <iiAcordoTarifarioTipoCodigo>0</iiAcordoTarifarioTipoCodigo>
+            <iiAliquotaAcordo>00000</iiAliquotaAcordo>
+            <iiAliquotaAdValorem>00900</iiAliquotaAdValorem>
+            <iiAliquotaPercentualReducao>00000</iiAliquotaPercentualReducao>
+            <iiAliquotaReduzida>00000</iiAliquotaReduzida>
+            <iiAliquotaValorCalculado>000000000024001</iiAliquotaValorCalculado>
+            <iiAliquotaValorDevido>000000000024001</iiAliquotaValorDevido>
+            <iiAliquotaValorRecolher>000000000024001</iiAliquotaValorRecolher>
+            <iiAliquotaValorReduzido>000000000000000</iiAliquotaValorReduzido>
+            <iiBaseCalculo>000000000266690</iiBaseCalculo>
+            <iiFundamentoLegalCodigo>00</iiFundamentoLegalCodigo>
+            <iiMotivoAdmissaoTemporariaCodigo>00</iiMotivoAdmissaoTemporariaCodigo>
+            <iiRegimeTributacaoCodigo>1</iiRegimeTributacaoCodigo>
+            <iiRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</iiRegimeTributacaoNome>
+            <ipiAliquotaAdValorem>00975</ipiAliquotaAdValorem>
+            <ipiAliquotaEspecificaCapacidadeRecipciente>00000</ipiAliquotaEspecificaCapacidadeRecipciente>
+            <ipiAliquotaEspecificaQuantidadeUnidadeMedida>000000000</ipiAliquotaEspecificaQuantidadeUnidadeMedida>
+            <ipiAliquotaEspecificaTipoRecipienteCodigo>00</ipiAliquotaEspecificaTipoRecipienteCodigo>
+            <ipiAliquotaEspecificaValorUnidadeMedida>0000000000</ipiAliquotaEspecificaValorUnidadeMedida>
+            <ipiAliquotaNotaComplementarTIPI>00</ipiAliquotaNotaComplementarTIPI>
+            <ipiAliquotaReduzida>00000</ipiAliquotaReduzida>
+            <ipiAliquotaValorDevido>000000000028342</ipiAliquotaValorDevido>
+            <ipiAliquotaValorRecolher>000000000028342</ipiAliquotaValorRecolher>
+            <ipiRegimeTributacaoCodigo>4</ipiRegimeTributacaoCodigo>
+            <ipiRegimeTributacaoNome>SEM BENEFICIO</ipiRegimeTributacaoNome>
+            <mercadoria>
+                <descricaoMercadoria>Produto 4</descricaoMercadoria>
+                <numeroSequencialItem>01</numeroSequencialItem>
+                <quantidade>00001344000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000269963</valorUnitario>
+            </mercadoria>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AC</atributo>
+                <especificacao>0001</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AB</atributo>
+                <especificacao>0004</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AA</atributo>
+                <especificacao>9999</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <numeroAdicao>002</numeroAdicao>
+            <numeroDI>123456789</numeroDI>
+            <numeroLI>0000000000</numeroLI>
+            <paisAquisicaoMercadoriaCodigo>1234</paisAquisicaoMercadoriaCodigo>
+            <paisAquisicaoMercadoriaNome>Country</paisAquisicaoMercadoriaNome>
+            <paisOrigemMercadoriaCodigo>1234</paisOrigemMercadoriaCodigo>
+            <paisOrigemMercadoriaNome>Country</paisOrigemMercadoriaNome>
+            <pisCofinsBaseCalculoAliquotaICMS>00000</pisCofinsBaseCalculoAliquotaICMS>
+            <pisCofinsBaseCalculoFundamentoLegalCodigo>00</pisCofinsBaseCalculoFundamentoLegalCodigo>
+            <pisCofinsBaseCalculoPercentualReducao>00000</pisCofinsBaseCalculoPercentualReducao>
+            <pisCofinsBaseCalculoValor>000000000266690</pisCofinsBaseCalculoValor>
+            <pisCofinsFundamentoLegalReducaoCodigo>00</pisCofinsFundamentoLegalReducaoCodigo>
+            <pisCofinsRegimeTributacaoCodigo>1</pisCofinsRegimeTributacaoCodigo>
+            <pisCofinsRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</pisCofinsRegimeTributacaoNome>
+            <pisPasepAliquotaAdValorem>00210</pisPasepAliquotaAdValorem>
+            <pisPasepAliquotaEspecificaQuantidadeUnidade>000000000</pisPasepAliquotaEspecificaQuantidadeUnidade>
+            <pisPasepAliquotaEspecificaValor>0000000000</pisPasepAliquotaEspecificaValor>
+            <pisPasepAliquotaReduzida>00000</pisPasepAliquotaReduzida>
+            <pisPasepAliquotaValorDevido>000000000005600</pisPasepAliquotaValorDevido>
+            <pisPasepAliquotaValorRecolher>000000000005600</pisPasepAliquotaValorRecolher>
+            <relacaoCompradorVendedor>Fabricante é desconhecido</relacaoCompradorVendedor>
+            <seguroMoedaNegociadaCodigo>000</seguroMoedaNegociadaCodigo>
+            <seguroValorMoedaNegociada>000000000000000</seguroValorMoedaNegociada>
+            <seguroValorReais>000000000000455</seguroValorReais>
+            <sequencialRetificacao>00</sequencialRetificacao>
+            <valorMultaARecolher>000000000000000</valorMultaARecolher>
+            <valorMultaARecolherAjustado>000000000000000</valorMultaARecolherAjustado>
+            <valorReaisFreteInternacional>000000000085234</valorReaisFreteInternacional>
+            <valorReaisSeguroInternacional>000000000000455</valorReaisSeguroInternacional>
+            <valorTotalCondicaoVenda>3628302720</valorTotalCondicaoVenda>
+            <vinculoCompradorVendedor>Não há vinculação entre comprador e vendedor.</vinculoCompradorVendedor>
+        </adicao>
+        <adicao>
+            <acrescimo>
+                <codigoAcrescimo>9 </codigoAcrescimo>
+                <denominacao>VALOR DE QUALQUER PARCELA                                   </denominacao>
+                <moedaNegociadaCodigo>220</moedaNegociadaCodigo>
+                <moedaNegociadaNome>DOLAR DOS EUA</moedaNegociadaNome>
+                <valorMoedaNegociada>000000000002624</valorMoedaNegociada>
+                <valorReais>000000000012737</valorReais>
+            </acrescimo>
+            <cideValorAliquotaEspecifica>00000000000</cideValorAliquotaEspecifica>
+            <cideValorDevido>000000000000000</cideValorDevido>
+            <cideValorRecolher>000000000000000</cideValorRecolher>
+            <codigoRelacaoCompradorVendedor>3</codigoRelacaoCompradorVendedor>
+            <codigoVinculoCompradorVendedor>1</codigoVinculoCompradorVendedor>
+            <cofinsAliquotaAdValorem>00965</cofinsAliquotaAdValorem>
+            <cofinsAliquotaEspecificaQuantidadeUnidade>000000000</cofinsAliquotaEspecificaQuantidadeUnidade>
+            <cofinsAliquotaEspecificaValor>0000000000</cofinsAliquotaEspecificaValor>
+            <cofinsAliquotaReduzida>00000</cofinsAliquotaReduzida>
+            <cofinsAliquotaValorDevido>000000000061730</cofinsAliquotaValorDevido>
+            <cofinsAliquotaValorRecolher>000000000061730</cofinsAliquotaValorRecolher>
+            <condicaoVendaIncoterm>FOB</condicaoVendaIncoterm>
+            <condicaoVendaLocal>NINGBO</condicaoVendaLocal>
+            <condicaoVendaMetodoValoracaoCodigo>01</condicaoVendaMetodoValoracaoCodigo>
+            <condicaoVendaMetodoValoracaoNome>METODO 1 - ART. 1 DO ACORDO (DECRETO 92930/86)</condicaoVendaMetodoValoracaoNome>
+            <condicaoVendaMoedaCodigo>220</condicaoVendaMoedaCodigo>
+            <condicaoVendaMoedaNome>DOLAR DOS EUA</condicaoVendaMoedaNome>
+            <condicaoVendaValorMoeda>000000000083012</condicaoVendaValorMoeda>
+            <condicaoVendaValorReais>000000000402965</condicaoVendaValorReais>
+            <dadosCambiaisCoberturaCambialCodigo>1</dadosCambiaisCoberturaCambialCodigo>
+            <dadosCambiaisCoberturaCambialNome>COM COBERTURA CAMBIAL E PAGAMENTO FINAL A PRAZO DE ATE' 180</dadosCambiaisCoberturaCambialNome>
+            <dadosCambiaisInstituicaoFinanciadoraCodigo>00</dadosCambiaisInstituicaoFinanciadoraCodigo>
+            <dadosCambiaisInstituicaoFinanciadoraNome>N/I</dadosCambiaisInstituicaoFinanciadoraNome>
+            <dadosCambiaisMotivoSemCoberturaCodigo>00</dadosCambiaisMotivoSemCoberturaCodigo>
+            <dadosCambiaisMotivoSemCoberturaNome>N/I</dadosCambiaisMotivoSemCoberturaNome>
+            <dadosCambiaisValorRealCambio>000000000000000</dadosCambiaisValorRealCambio>
+            <dadosCargaPaisProcedenciaCodigo>000</dadosCargaPaisProcedenciaCodigo>
+            <dadosCargaUrfEntradaCodigo>0000000</dadosCargaUrfEntradaCodigo>
+            <dadosCargaViaTransporteCodigo>00</dadosCargaViaTransporteCodigo>
+            <dadosMercadoriaAplicacao>REVENDA</dadosMercadoriaAplicacao>
+            <dadosMercadoriaCodigoNaladiNCCA>0000000</dadosMercadoriaCodigoNaladiNCCA>
+            <dadosMercadoriaCodigoNaladiSH>00000000</dadosMercadoriaCodigoNaladiSH>
+            <dadosMercadoriaCodigoNcm>70109090</dadosMercadoriaCodigoNcm>
+            <dadosMercadoriaCondicao>NOVA</dadosMercadoriaCondicao>
+            <dadosMercadoriaMedidaEstatisticaQuantidade>00000474750000</dadosMercadoriaMedidaEstatisticaQuantidade>
+            <dadosMercadoriaMedidaEstatisticaUnidade>QUILOGRAMA LIQUIDO</dadosMercadoriaMedidaEstatisticaUnidade>
+            <dadosMercadoriaNomeNcm>Outros</dadosMercadoriaNomeNcm>
+            <dadosMercadoriaPesoLiquido>000000474750000</dadosMercadoriaPesoLiquido>
+            <dcrCoeficienteReducao>00000</dcrCoeficienteReducao>
+            <dcrIdentificacao>00000000</dcrIdentificacao>
+            <dcrValorDevido>000000000000000</dcrValorDevido>
+            <dcrValorDolar>000000000000000</dcrValorDolar>
+            <dcrValorReal>000000000000000</dcrValorReal>
+            <dcrValorRecolher>000000000000000</dcrValorRecolher>
+            <fornecedorCidade>City</fornecedorCidade>
+            <fornecedorComplemento>Address</fornecedorComplemento>
+            <fornecedorLogradouro>HARCOURT ROAD</fornecedorLogradouro>
+            <fornecedorNome>Empresa exportadora</fornecedorNome>
+            <fornecedorNumero>12</fornecedorNumero>
+            <freteMoedaNegociadaCodigo>000</freteMoedaNegociadaCodigo>
+            <freteValorMoedaNegociada>000000000045928</freteValorMoedaNegociada>
+            <freteValorReais>000000000222948</freteValorReais>
+            <iiAcordoTarifarioTipoCodigo>0</iiAcordoTarifarioTipoCodigo>
+            <iiAliquotaAcordo>00000</iiAliquotaAcordo>
+            <iiAliquotaAdValorem>00900</iiAliquotaAdValorem>
+            <iiAliquotaPercentualReducao>00000</iiAliquotaPercentualReducao>
+            <iiAliquotaReduzida>00000</iiAliquotaReduzida>
+            <iiAliquotaValorCalculado>000000000057572</iiAliquotaValorCalculado>
+            <iiAliquotaValorDevido>000000000057572</iiAliquotaValorDevido>
+            <iiAliquotaValorRecolher>000000000057572</iiAliquotaValorRecolher>
+            <iiAliquotaValorReduzido>000000000000000</iiAliquotaValorReduzido>
+            <iiBaseCalculo>000000000639700</iiBaseCalculo>
+            <iiFundamentoLegalCodigo>00</iiFundamentoLegalCodigo>
+            <iiMotivoAdmissaoTemporariaCodigo>00</iiMotivoAdmissaoTemporariaCodigo>
+            <iiRegimeTributacaoCodigo>1</iiRegimeTributacaoCodigo>
+            <iiRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</iiRegimeTributacaoNome>
+            <ipiAliquotaAdValorem>00975</ipiAliquotaAdValorem>
+            <ipiAliquotaEspecificaCapacidadeRecipciente>00000</ipiAliquotaEspecificaCapacidadeRecipciente>
+            <ipiAliquotaEspecificaQuantidadeUnidadeMedida>000000000</ipiAliquotaEspecificaQuantidadeUnidadeMedida>
+            <ipiAliquotaEspecificaTipoRecipienteCodigo>00</ipiAliquotaEspecificaTipoRecipienteCodigo>
+            <ipiAliquotaEspecificaValorUnidadeMedida>0000000000</ipiAliquotaEspecificaValorUnidadeMedida>
+            <ipiAliquotaNotaComplementarTIPI>00</ipiAliquotaNotaComplementarTIPI>
+            <ipiAliquotaReduzida>00000</ipiAliquotaReduzida>
+            <ipiAliquotaValorDevido>000000000067984</ipiAliquotaValorDevido>
+            <ipiAliquotaValorRecolher>000000000067984</ipiAliquotaValorRecolher>
+            <ipiRegimeTributacaoCodigo>4</ipiRegimeTributacaoCodigo>
+            <ipiRegimeTributacaoNome>SEM BENEFICIO</ipiRegimeTributacaoNome>
+            <mercadoria>
+                <descricaoMercadoria>Produto 5</descricaoMercadoria>
+                <numeroSequencialItem>01</numeroSequencialItem>
+                <quantidade>00005108400000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000162501</valorUnitario>
+            </mercadoria>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AC</atributo>
+                <especificacao>0001</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AB</atributo>
+                <especificacao>0003</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AA</atributo>
+                <especificacao>9999</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <numeroAdicao>003</numeroAdicao>
+            <numeroDI>123456789</numeroDI>
+            <numeroLI>0000000000</numeroLI>
+            <paisAquisicaoMercadoriaCodigo>1234</paisAquisicaoMercadoriaCodigo>
+            <paisAquisicaoMercadoriaNome>Country</paisAquisicaoMercadoriaNome>
+            <paisOrigemMercadoriaCodigo>1234</paisOrigemMercadoriaCodigo>
+            <paisOrigemMercadoriaNome>Country</paisOrigemMercadoriaNome>
+            <pisCofinsBaseCalculoAliquotaICMS>00000</pisCofinsBaseCalculoAliquotaICMS>
+            <pisCofinsBaseCalculoFundamentoLegalCodigo>00</pisCofinsBaseCalculoFundamentoLegalCodigo>
+            <pisCofinsBaseCalculoPercentualReducao>00000</pisCofinsBaseCalculoPercentualReducao>
+            <pisCofinsBaseCalculoValor>000000000639700</pisCofinsBaseCalculoValor>
+            <pisCofinsFundamentoLegalReducaoCodigo>00</pisCofinsFundamentoLegalReducaoCodigo>
+            <pisCofinsRegimeTributacaoCodigo>1</pisCofinsRegimeTributacaoCodigo>
+            <pisCofinsRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</pisCofinsRegimeTributacaoNome>
+            <pisPasepAliquotaAdValorem>00210</pisPasepAliquotaAdValorem>
+            <pisPasepAliquotaEspecificaQuantidadeUnidade>000000000</pisPasepAliquotaEspecificaQuantidadeUnidade>
+            <pisPasepAliquotaEspecificaValor>0000000000</pisPasepAliquotaEspecificaValor>
+            <pisPasepAliquotaReduzida>00000</pisPasepAliquotaReduzida>
+            <pisPasepAliquotaValorDevido>000000000013433</pisPasepAliquotaValorDevido>
+            <pisPasepAliquotaValorRecolher>000000000013433</pisPasepAliquotaValorRecolher>
+            <relacaoCompradorVendedor>Fabricante é desconhecido</relacaoCompradorVendedor>
+            <seguroMoedaNegociadaCodigo>000</seguroMoedaNegociadaCodigo>
+            <seguroValorMoedaNegociada>000000000000000</seguroValorMoedaNegociada>
+            <seguroValorReais>000000000001046</seguroValorReais>
+            <sequencialRetificacao>00</sequencialRetificacao>
+            <valorMultaARecolher>000000000000000</valorMultaARecolher>
+            <valorMultaARecolherAjustado>000000000000000</valorMultaARecolherAjustado>
+            <valorReaisFreteInternacional>000000000222948</valorReaisFreteInternacional>
+            <valorReaisSeguroInternacional>000000000001046</valorReaisSeguroInternacional>
+            <valorTotalCondicaoVenda>8301201084</valorTotalCondicaoVenda>
+            <vinculoCompradorVendedor>Não há vinculação entre comprador e vendedor.</vinculoCompradorVendedor>
+        </adicao>
+        <adicao>
+            <acrescimo>
+                <codigoAcrescimo>9 </codigoAcrescimo>
+                <denominacao>VALOR DE QUALQUER PARCELA                                   </denominacao>
+                <moedaNegociadaCodigo>220</moedaNegociadaCodigo>
+                <moedaNegociadaNome>DOLAR DOS EUA</moedaNegociadaNome>
+                <valorMoedaNegociada>000000000008121</valorMoedaNegociada>
+                <valorReais>000000000039421</valorReais>
+            </acrescimo>
+            <cideValorAliquotaEspecifica>00000000000</cideValorAliquotaEspecifica>
+            <cideValorDevido>000000000000000</cideValorDevido>
+            <cideValorRecolher>000000000000000</cideValorRecolher>
+            <codigoRelacaoCompradorVendedor>3</codigoRelacaoCompradorVendedor>
+            <codigoVinculoCompradorVendedor>1</codigoVinculoCompradorVendedor>
+            <cofinsAliquotaAdValorem>00965</cofinsAliquotaAdValorem>
+            <cofinsAliquotaEspecificaQuantidadeUnidade>000000000</cofinsAliquotaEspecificaQuantidadeUnidade>
+            <cofinsAliquotaEspecificaValor>0000000000</cofinsAliquotaEspecificaValor>
+            <cofinsAliquotaReduzida>00000</cofinsAliquotaReduzida>
+            <cofinsAliquotaValorDevido>000000000247336</cofinsAliquotaValorDevido>
+            <cofinsAliquotaValorRecolher>000000000247336</cofinsAliquotaValorRecolher>
+            <condicaoVendaIncoterm>FOB</condicaoVendaIncoterm>
+            <condicaoVendaLocal>NINGBO</condicaoVendaLocal>
+            <condicaoVendaMetodoValoracaoCodigo>01</condicaoVendaMetodoValoracaoCodigo>
+            <condicaoVendaMetodoValoracaoNome>METODO 1 - ART. 1 DO ACORDO (DECRETO 92930/86)</condicaoVendaMetodoValoracaoNome>
+            <condicaoVendaMoedaCodigo>220</condicaoVendaMoedaCodigo>
+            <condicaoVendaMoedaNome>DOLAR DOS EUA</condicaoVendaMoedaNome>
+            <condicaoVendaValorMoeda>000000000376792</condicaoVendaValorMoeda>
+            <condicaoVendaValorReais>000000001829061</condicaoVendaValorReais>
+            <dadosCambiaisCoberturaCambialCodigo>1</dadosCambiaisCoberturaCambialCodigo>
+            <dadosCambiaisCoberturaCambialNome>COM COBERTURA CAMBIAL E PAGAMENTO FINAL A PRAZO DE ATE' 180</dadosCambiaisCoberturaCambialNome>
+            <dadosCambiaisInstituicaoFinanciadoraCodigo>00</dadosCambiaisInstituicaoFinanciadoraCodigo>
+            <dadosCambiaisInstituicaoFinanciadoraNome>N/I</dadosCambiaisInstituicaoFinanciadoraNome>
+            <dadosCambiaisMotivoSemCoberturaCodigo>00</dadosCambiaisMotivoSemCoberturaCodigo>
+            <dadosCambiaisMotivoSemCoberturaNome>N/I</dadosCambiaisMotivoSemCoberturaNome>
+            <dadosCambiaisValorRealCambio>000000000000000</dadosCambiaisValorRealCambio>
+            <dadosCargaPaisProcedenciaCodigo>000</dadosCargaPaisProcedenciaCodigo>
+            <dadosCargaUrfEntradaCodigo>0000000</dadosCargaUrfEntradaCodigo>
+            <dadosCargaViaTransporteCodigo>00</dadosCargaViaTransporteCodigo>
+            <dadosMercadoriaAplicacao>REVENDA</dadosMercadoriaAplicacao>
+            <dadosMercadoriaCodigoNaladiNCCA>0000000</dadosMercadoriaCodigoNaladiNCCA>
+            <dadosMercadoriaCodigoNaladiSH>00000000</dadosMercadoriaCodigoNaladiSH>
+            <dadosMercadoriaCodigoNcm>70109090</dadosMercadoriaCodigoNcm>
+            <dadosMercadoriaCondicao>NOVA</dadosMercadoriaCondicao>
+            <dadosMercadoriaMedidaEstatisticaQuantidade>00001469050000</dadosMercadoriaMedidaEstatisticaQuantidade>
+            <dadosMercadoriaMedidaEstatisticaUnidade>QUILOGRAMA LIQUIDO</dadosMercadoriaMedidaEstatisticaUnidade>
+            <dadosMercadoriaNomeNcm>Outros</dadosMercadoriaNomeNcm>
+            <dadosMercadoriaPesoLiquido>000001469050000</dadosMercadoriaPesoLiquido>
+            <dcrCoeficienteReducao>00000</dcrCoeficienteReducao>
+            <dcrIdentificacao>00000000</dcrIdentificacao>
+            <dcrValorDevido>000000000000000</dcrValorDevido>
+            <dcrValorDolar>000000000000000</dcrValorDolar>
+            <dcrValorReal>000000000000000</dcrValorReal>
+            <dcrValorRecolher>000000000000000</dcrValorRecolher>
+            <fornecedorCidade>City</fornecedorCidade>
+            <fornecedorComplemento>Address</fornecedorComplemento>
+            <fornecedorLogradouro>HARCOURT ROAD</fornecedorLogradouro>
+            <fornecedorNome>Empresa exportadora</fornecedorNome>
+            <fornecedorNumero>12</fornecedorNumero>
+            <freteMoedaNegociadaCodigo>000</freteMoedaNegociadaCodigo>
+            <freteValorMoedaNegociada>000000000142118</freteValorMoedaNegociada>
+            <freteValorReais>000000000689884</freteValorReais>
+            <iiAcordoTarifarioTipoCodigo>0</iiAcordoTarifarioTipoCodigo>
+            <iiAliquotaAcordo>00000</iiAliquotaAcordo>
+            <iiAliquotaAdValorem>00900</iiAliquotaAdValorem>
+            <iiAliquotaPercentualReducao>00000</iiAliquotaPercentualReducao>
+            <iiAliquotaReduzida>00000</iiAliquotaReduzida>
+            <iiAliquotaValorCalculado>000000000230676</iiAliquotaValorCalculado>
+            <iiAliquotaValorDevido>000000000230676</iiAliquotaValorDevido>
+            <iiAliquotaValorRecolher>000000000230676</iiAliquotaValorRecolher>
+            <iiAliquotaValorReduzido>000000000000000</iiAliquotaValorReduzido>
+            <iiBaseCalculo>000000002563081</iiBaseCalculo>
+            <iiFundamentoLegalCodigo>00</iiFundamentoLegalCodigo>
+            <iiMotivoAdmissaoTemporariaCodigo>00</iiMotivoAdmissaoTemporariaCodigo>
+            <iiRegimeTributacaoCodigo>1</iiRegimeTributacaoCodigo>
+            <iiRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</iiRegimeTributacaoNome>
+            <ipiAliquotaAdValorem>00975</ipiAliquotaAdValorem>
+            <ipiAliquotaEspecificaCapacidadeRecipciente>00000</ipiAliquotaEspecificaCapacidadeRecipciente>
+            <ipiAliquotaEspecificaQuantidadeUnidadeMedida>000000000</ipiAliquotaEspecificaQuantidadeUnidadeMedida>
+            <ipiAliquotaEspecificaTipoRecipienteCodigo>00</ipiAliquotaEspecificaTipoRecipienteCodigo>
+            <ipiAliquotaEspecificaValorUnidadeMedida>0000000000</ipiAliquotaEspecificaValorUnidadeMedida>
+            <ipiAliquotaNotaComplementarTIPI>00</ipiAliquotaNotaComplementarTIPI>
+            <ipiAliquotaReduzida>00000</ipiAliquotaReduzida>
+            <ipiAliquotaValorDevido>000000000272391</ipiAliquotaValorDevido>
+            <ipiAliquotaValorRecolher>000000000272391</ipiAliquotaValorRecolher>
+            <ipiRegimeTributacaoCodigo>4</ipiRegimeTributacaoCodigo>
+            <ipiRegimeTributacaoNome>SEM BENEFICIO</ipiRegimeTributacaoNome>
+            <mercadoria>
+                <descricaoMercadoria>Produto 6</descricaoMercadoria>
+                <numeroSequencialItem>01</numeroSequencialItem>
+                <quantidade>00006084000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000091875</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 7</descricaoMercadoria>
+                <numeroSequencialItem>02</numeroSequencialItem>
+                <quantidade>00013992000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000110250</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 8</descricaoMercadoria>
+                <numeroSequencialItem>03</numeroSequencialItem>
+                <quantidade>00001504800000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000128625</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 9</descricaoMercadoria>
+                <numeroSequencialItem>04</numeroSequencialItem>
+                <quantidade>00007020000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000113801</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 10</descricaoMercadoria>
+                <numeroSequencialItem>05</numeroSequencialItem>
+                <quantidade>00005184000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000130000</valorUnitario>
+            </mercadoria>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AC</atributo>
+                <especificacao>0001</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AB</atributo>
+                <especificacao>0002</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AA</atributo>
+                <especificacao>9999</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <numeroAdicao>004</numeroAdicao>
+            <numeroDI>123456789</numeroDI>
+            <numeroLI>0000000000</numeroLI>
+            <paisAquisicaoMercadoriaCodigo>1234</paisAquisicaoMercadoriaCodigo>
+            <paisAquisicaoMercadoriaNome>Country</paisAquisicaoMercadoriaNome>
+            <paisOrigemMercadoriaCodigo>1234</paisOrigemMercadoriaCodigo>
+            <paisOrigemMercadoriaNome>Country</paisOrigemMercadoriaNome>
+            <pisCofinsBaseCalculoAliquotaICMS>00000</pisCofinsBaseCalculoAliquotaICMS>
+            <pisCofinsBaseCalculoFundamentoLegalCodigo>00</pisCofinsBaseCalculoFundamentoLegalCodigo>
+            <pisCofinsBaseCalculoPercentualReducao>00000</pisCofinsBaseCalculoPercentualReducao>
+            <pisCofinsBaseCalculoValor>000000002563081</pisCofinsBaseCalculoValor>
+            <pisCofinsFundamentoLegalReducaoCodigo>00</pisCofinsFundamentoLegalReducaoCodigo>
+            <pisCofinsRegimeTributacaoCodigo>1</pisCofinsRegimeTributacaoCodigo>
+            <pisCofinsRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</pisCofinsRegimeTributacaoNome>
+            <pisPasepAliquotaAdValorem>00210</pisPasepAliquotaAdValorem>
+            <pisPasepAliquotaEspecificaQuantidadeUnidade>000000000</pisPasepAliquotaEspecificaQuantidadeUnidade>
+            <pisPasepAliquotaEspecificaValor>0000000000</pisPasepAliquotaEspecificaValor>
+            <pisPasepAliquotaReduzida>00000</pisPasepAliquotaReduzida>
+            <pisPasepAliquotaValorDevido>000000000053824</pisPasepAliquotaValorDevido>
+            <pisPasepAliquotaValorRecolher>000000000053824</pisPasepAliquotaValorRecolher>
+            <relacaoCompradorVendedor>Fabricante é desconhecido</relacaoCompradorVendedor>
+            <seguroMoedaNegociadaCodigo>000</seguroMoedaNegociadaCodigo>
+            <seguroValorMoedaNegociada>000000000000000</seguroValorMoedaNegociada>
+            <seguroValorReais>000000000004702</seguroValorReais>
+            <sequencialRetificacao>00</sequencialRetificacao>
+            <valorMultaARecolher>000000000000000</valorMultaARecolher>
+            <valorMultaARecolherAjustado>000000000000000</valorMultaARecolherAjustado>
+            <valorReaisFreteInternacional>000000000689884</valorReaisFreteInternacional>
+            <valorReaisSeguroInternacional>000000000004702</valorReaisSeguroInternacional>
+            <valorTotalCondicaoVenda>37679434200</valorTotalCondicaoVenda>
+            <vinculoCompradorVendedor>Não há vinculação entre comprador e vendedor.</vinculoCompradorVendedor>
+        </adicao>
+        <adicao>
+            <acrescimo>
+                <codigoAcrescimo>9 </codigoAcrescimo>
+                <denominacao>VALOR DE QUALQUER PARCELA                                   </denominacao>
+                <moedaNegociadaCodigo>220</moedaNegociadaCodigo>
+                <moedaNegociadaNome>DOLAR DOS EUA</moedaNegociadaNome>
+                <valorMoedaNegociada>000000000002648</valorMoedaNegociada>
+                <valorReais>000000000012854</valorReais>
+            </acrescimo>
+            <cideValorAliquotaEspecifica>00000000000</cideValorAliquotaEspecifica>
+            <cideValorDevido>000000000000000</cideValorDevido>
+            <cideValorRecolher>000000000000000</cideValorRecolher>
+            <codigoRelacaoCompradorVendedor>3</codigoRelacaoCompradorVendedor>
+            <codigoVinculoCompradorVendedor>1</codigoVinculoCompradorVendedor>
+            <cofinsAliquotaAdValorem>00965</cofinsAliquotaAdValorem>
+            <cofinsAliquotaEspecificaQuantidadeUnidade>000000000</cofinsAliquotaEspecificaQuantidadeUnidade>
+            <cofinsAliquotaEspecificaValor>0000000000</cofinsAliquotaEspecificaValor>
+            <cofinsAliquotaReduzida>00000</cofinsAliquotaReduzida>
+            <cofinsAliquotaValorDevido>000000000086827</cofinsAliquotaValorDevido>
+            <cofinsAliquotaValorRecolher>000000000086827</cofinsAliquotaValorRecolher>
+            <condicaoVendaIncoterm>FOB</condicaoVendaIncoterm>
+            <condicaoVendaLocal>NINGBO</condicaoVendaLocal>
+            <condicaoVendaMetodoValoracaoCodigo>01</condicaoVendaMetodoValoracaoCodigo>
+            <condicaoVendaMetodoValoracaoNome>METODO 1 - ART. 1 DO ACORDO (DECRETO 92930/86)</condicaoVendaMetodoValoracaoNome>
+            <condicaoVendaMoedaCodigo>220</condicaoVendaMoedaCodigo>
+            <condicaoVendaMoedaNome>DOLAR DOS EUA</condicaoVendaMoedaNome>
+            <condicaoVendaValorMoeda>000000000136015</condicaoVendaValorMoeda>
+            <condicaoVendaValorReais>000000000660257</condicaoVendaValorReais>
+            <dadosCambiaisCoberturaCambialCodigo>1</dadosCambiaisCoberturaCambialCodigo>
+            <dadosCambiaisCoberturaCambialNome>COM COBERTURA CAMBIAL E PAGAMENTO FINAL A PRAZO DE ATE' 180</dadosCambiaisCoberturaCambialNome>
+            <dadosCambiaisInstituicaoFinanciadoraCodigo>00</dadosCambiaisInstituicaoFinanciadoraCodigo>
+            <dadosCambiaisInstituicaoFinanciadoraNome>N/I</dadosCambiaisInstituicaoFinanciadoraNome>
+            <dadosCambiaisMotivoSemCoberturaCodigo>00</dadosCambiaisMotivoSemCoberturaCodigo>
+            <dadosCambiaisMotivoSemCoberturaNome>N/I</dadosCambiaisMotivoSemCoberturaNome>
+            <dadosCambiaisValorRealCambio>000000000000000</dadosCambiaisValorRealCambio>
+            <dadosCargaPaisProcedenciaCodigo>000</dadosCargaPaisProcedenciaCodigo>
+            <dadosCargaUrfEntradaCodigo>0000000</dadosCargaUrfEntradaCodigo>
+            <dadosCargaViaTransporteCodigo>00</dadosCargaViaTransporteCodigo>
+            <dadosMercadoriaAplicacao>REVENDA</dadosMercadoriaAplicacao>
+            <dadosMercadoriaCodigoNaladiNCCA>0000000</dadosMercadoriaCodigoNaladiNCCA>
+            <dadosMercadoriaCodigoNaladiSH>00000000</dadosMercadoriaCodigoNaladiSH>
+            <dadosMercadoriaCodigoNcm>70109090</dadosMercadoriaCodigoNcm>
+            <dadosMercadoriaCondicao>NOVA</dadosMercadoriaCondicao>
+            <dadosMercadoriaMedidaEstatisticaQuantidade>00000479050000</dadosMercadoriaMedidaEstatisticaQuantidade>
+            <dadosMercadoriaMedidaEstatisticaUnidade>QUILOGRAMA LIQUIDO</dadosMercadoriaMedidaEstatisticaUnidade>
+            <dadosMercadoriaNomeNcm>Outros</dadosMercadoriaNomeNcm>
+            <dadosMercadoriaPesoLiquido>000000479050000</dadosMercadoriaPesoLiquido>
+            <dcrCoeficienteReducao>00000</dcrCoeficienteReducao>
+            <dcrIdentificacao>00000000</dcrIdentificacao>
+            <dcrValorDevido>000000000000000</dcrValorDevido>
+            <dcrValorDolar>000000000000000</dcrValorDolar>
+            <dcrValorReal>000000000000000</dcrValorReal>
+            <dcrValorRecolher>000000000000000</dcrValorRecolher>
+            <fornecedorCidade>City</fornecedorCidade>
+            <fornecedorComplemento>Address</fornecedorComplemento>
+            <fornecedorLogradouro>HARCOURT ROAD</fornecedorLogradouro>
+            <fornecedorNome>Empresa exportadora</fornecedorNome>
+            <fornecedorNumero>12</fornecedorNumero>
+            <freteMoedaNegociadaCodigo>000</freteMoedaNegociadaCodigo>
+            <freteValorMoedaNegociada>000000000046344</freteValorMoedaNegociada>
+            <freteValorReais>000000000224967</freteValorReais>
+            <iiAcordoTarifarioTipoCodigo>0</iiAcordoTarifarioTipoCodigo>
+            <iiAliquotaAcordo>00000</iiAliquotaAcordo>
+            <iiAliquotaAdValorem>00900</iiAliquotaAdValorem>
+            <iiAliquotaPercentualReducao>00000</iiAliquotaPercentualReducao>
+            <iiAliquotaReduzida>00000</iiAliquotaReduzida>
+            <iiAliquotaValorCalculado>000000000080979</iiAliquotaValorCalculado>
+            <iiAliquotaValorDevido>000000000080979</iiAliquotaValorDevido>
+            <iiAliquotaValorRecolher>000000000080979</iiAliquotaValorRecolher>
+            <iiAliquotaValorReduzido>000000000000000</iiAliquotaValorReduzido>
+            <iiBaseCalculo>000000000899777</iiBaseCalculo>
+            <iiFundamentoLegalCodigo>00</iiFundamentoLegalCodigo>
+            <iiMotivoAdmissaoTemporariaCodigo>00</iiMotivoAdmissaoTemporariaCodigo>
+            <iiRegimeTributacaoCodigo>1</iiRegimeTributacaoCodigo>
+            <iiRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</iiRegimeTributacaoNome>
+            <ipiAliquotaAdValorem>00975</ipiAliquotaAdValorem>
+            <ipiAliquotaEspecificaCapacidadeRecipciente>00000</ipiAliquotaEspecificaCapacidadeRecipciente>
+            <ipiAliquotaEspecificaQuantidadeUnidadeMedida>000000000</ipiAliquotaEspecificaQuantidadeUnidadeMedida>
+            <ipiAliquotaEspecificaTipoRecipienteCodigo>00</ipiAliquotaEspecificaTipoRecipienteCodigo>
+            <ipiAliquotaEspecificaValorUnidadeMedida>0000000000</ipiAliquotaEspecificaValorUnidadeMedida>
+            <ipiAliquotaNotaComplementarTIPI>00</ipiAliquotaNotaComplementarTIPI>
+            <ipiAliquotaReduzida>00000</ipiAliquotaReduzida>
+            <ipiAliquotaValorDevido>000000000095623</ipiAliquotaValorDevido>
+            <ipiAliquotaValorRecolher>000000000095623</ipiAliquotaValorRecolher>
+            <ipiRegimeTributacaoCodigo>4</ipiRegimeTributacaoCodigo>
+            <ipiRegimeTributacaoNome>SEM BENEFICIO</ipiRegimeTributacaoNome>
+            <mercadoria>
+                <descricaoMercadoria>Produto 11</descricaoMercadoria>
+                <numeroSequencialItem>01</numeroSequencialItem>
+                <quantidade>00009984000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000078094</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 12</descricaoMercadoria>
+                <numeroSequencialItem>02</numeroSequencialItem>
+                <quantidade>00007020000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000082688</valorUnitario>
+            </mercadoria>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AC</atributo>
+                <especificacao>0001</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AB</atributo>
+                <especificacao>0001</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <nomenclaturaValorAduaneiro>
+                <atributo>AA</atributo>
+                <especificacao>9999</especificacao>
+                <nivelNome>SUBITEM             </nivelNome>
+            </nomenclaturaValorAduaneiro>
+            <numeroAdicao>005</numeroAdicao>
+            <numeroDI>123456789</numeroDI>
+            <numeroLI>0000000000</numeroLI>
+            <paisAquisicaoMercadoriaCodigo>1234</paisAquisicaoMercadoriaCodigo>
+            <paisAquisicaoMercadoriaNome>Country</paisAquisicaoMercadoriaNome>
+            <paisOrigemMercadoriaCodigo>1234</paisOrigemMercadoriaCodigo>
+            <paisOrigemMercadoriaNome>Country</paisOrigemMercadoriaNome>
+            <pisCofinsBaseCalculoAliquotaICMS>00000</pisCofinsBaseCalculoAliquotaICMS>
+            <pisCofinsBaseCalculoFundamentoLegalCodigo>00</pisCofinsBaseCalculoFundamentoLegalCodigo>
+            <pisCofinsBaseCalculoPercentualReducao>00000</pisCofinsBaseCalculoPercentualReducao>
+            <pisCofinsBaseCalculoValor>000000000899777</pisCofinsBaseCalculoValor>
+            <pisCofinsFundamentoLegalReducaoCodigo>00</pisCofinsFundamentoLegalReducaoCodigo>
+            <pisCofinsRegimeTributacaoCodigo>1</pisCofinsRegimeTributacaoCodigo>
+            <pisCofinsRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</pisCofinsRegimeTributacaoNome>
+            <pisPasepAliquotaAdValorem>00210</pisPasepAliquotaAdValorem>
+            <pisPasepAliquotaEspecificaQuantidadeUnidade>000000000</pisPasepAliquotaEspecificaQuantidadeUnidade>
+            <pisPasepAliquotaEspecificaValor>0000000000</pisPasepAliquotaEspecificaValor>
+            <pisPasepAliquotaReduzida>00000</pisPasepAliquotaReduzida>
+            <pisPasepAliquotaValorDevido>000000000018895</pisPasepAliquotaValorDevido>
+            <pisPasepAliquotaValorRecolher>000000000018895</pisPasepAliquotaValorRecolher>
+            <relacaoCompradorVendedor>Fabricante é desconhecido</relacaoCompradorVendedor>
+            <seguroMoedaNegociadaCodigo>000</seguroMoedaNegociadaCodigo>
+            <seguroValorMoedaNegociada>000000000000000</seguroValorMoedaNegociada>
+            <seguroValorReais>000000000001694</seguroValorReais>
+            <sequencialRetificacao>00</sequencialRetificacao>
+            <valorMultaARecolher>000000000000000</valorMultaARecolher>
+            <valorMultaARecolherAjustado>000000000000000</valorMultaARecolherAjustado>
+            <valorReaisFreteInternacional>000000000224967</valorReaisFreteInternacional>
+            <valorReaisSeguroInternacional>000000000001694</valorReaisSeguroInternacional>
+            <valorTotalCondicaoVenda>13601602560</valorTotalCondicaoVenda>
+            <vinculoCompradorVendedor>Não há vinculação entre comprador e vendedor.</vinculoCompradorVendedor>
+        </adicao>
+        <adicao>
+            <acrescimo>
+                <codigoAcrescimo>9 </codigoAcrescimo>
+                <denominacao>VALOR DE QUALQUER PARCELA                                   </denominacao>
+                <moedaNegociadaCodigo>220</moedaNegociadaCodigo>
+                <moedaNegociadaNome>DOLAR DOS EUA</moedaNegociadaNome>
+                <valorMoedaNegociada>000000000000371</valorMoedaNegociada>
+                <valorReais>000000000001800</valorReais>
+            </acrescimo>
+            <cideValorAliquotaEspecifica>00000000000</cideValorAliquotaEspecifica>
+            <cideValorDevido>000000000000000</cideValorDevido>
+            <cideValorRecolher>000000000000000</cideValorRecolher>
+            <codigoRelacaoCompradorVendedor>3</codigoRelacaoCompradorVendedor>
+            <codigoVinculoCompradorVendedor>1</codigoVinculoCompradorVendedor>
+            <cofinsAliquotaAdValorem>00965</cofinsAliquotaAdValorem>
+            <cofinsAliquotaEspecificaQuantidadeUnidade>000000000</cofinsAliquotaEspecificaQuantidadeUnidade>
+            <cofinsAliquotaEspecificaValor>0000000000</cofinsAliquotaEspecificaValor>
+            <cofinsAliquotaReduzida>00000</cofinsAliquotaReduzida>
+            <cofinsAliquotaValorDevido>000000000060163</cofinsAliquotaValorDevido>
+            <cofinsAliquotaValorRecolher>000000000060163</cofinsAliquotaValorRecolher>
+            <condicaoVendaIncoterm>FOB</condicaoVendaIncoterm>
+            <condicaoVendaLocal>NINGBO</condicaoVendaLocal>
+            <condicaoVendaMetodoValoracaoCodigo>01</condicaoVendaMetodoValoracaoCodigo>
+            <condicaoVendaMetodoValoracaoNome>METODO 1 - ART. 1 DO ACORDO (DECRETO 92930/86)</condicaoVendaMetodoValoracaoNome>
+            <condicaoVendaMoedaCodigo>220</condicaoVendaMoedaCodigo>
+            <condicaoVendaMoedaNome>DOLAR DOS EUA</condicaoVendaMoedaNome>
+            <condicaoVendaValorMoeda>000000000121272</condicaoVendaValorMoeda>
+            <condicaoVendaValorReais>000000000588690</condicaoVendaValorReais>
+            <dadosCambiaisCoberturaCambialCodigo>1</dadosCambiaisCoberturaCambialCodigo>
+            <dadosCambiaisCoberturaCambialNome>COM COBERTURA CAMBIAL E PAGAMENTO FINAL A PRAZO DE ATE' 180</dadosCambiaisCoberturaCambialNome>
+            <dadosCambiaisInstituicaoFinanciadoraCodigo>00</dadosCambiaisInstituicaoFinanciadoraCodigo>
+            <dadosCambiaisInstituicaoFinanciadoraNome>N/I</dadosCambiaisInstituicaoFinanciadoraNome>
+            <dadosCambiaisMotivoSemCoberturaCodigo>00</dadosCambiaisMotivoSemCoberturaCodigo>
+            <dadosCambiaisMotivoSemCoberturaNome>N/I</dadosCambiaisMotivoSemCoberturaNome>
+            <dadosCambiaisValorRealCambio>000000000000000</dadosCambiaisValorRealCambio>
+            <dadosCargaPaisProcedenciaCodigo>000</dadosCargaPaisProcedenciaCodigo>
+            <dadosCargaUrfEntradaCodigo>0000000</dadosCargaUrfEntradaCodigo>
+            <dadosCargaViaTransporteCodigo>00</dadosCargaViaTransporteCodigo>
+            <dadosMercadoriaAplicacao>REVENDA</dadosMercadoriaAplicacao>
+            <dadosMercadoriaCodigoNaladiNCCA>0000000</dadosMercadoriaCodigoNaladiNCCA>
+            <dadosMercadoriaCodigoNaladiSH>00000000</dadosMercadoriaCodigoNaladiSH>
+            <dadosMercadoriaCodigoNcm>70172000</dadosMercadoriaCodigoNcm>
+            <dadosMercadoriaCondicao>NOVA</dadosMercadoriaCondicao>
+            <dadosMercadoriaMedidaEstatisticaQuantidade>00000067035000</dadosMercadoriaMedidaEstatisticaQuantidade>
+            <dadosMercadoriaMedidaEstatisticaUnidade>QUILOGRAMA LIQUIDO</dadosMercadoriaMedidaEstatisticaUnidade>
+            <dadosMercadoriaNomeNcm>- De outro vidro com um coeficiente de dilatação linear</dadosMercadoriaNomeNcm>
+            <dadosMercadoriaPesoLiquido>000000067035000</dadosMercadoriaPesoLiquido>
+            <dcrCoeficienteReducao>00000</dcrCoeficienteReducao>
+            <dcrIdentificacao>00000000</dcrIdentificacao>
+            <dcrValorDevido>000000000000000</dcrValorDevido>
+            <dcrValorDolar>000000000000000</dcrValorDolar>
+            <dcrValorReal>000000000000000</dcrValorReal>
+            <dcrValorRecolher>000000000000000</dcrValorRecolher>
+            <destaqueNcm>
+                <numeroDestaque>999</numeroDestaque>
+            </destaqueNcm>
+            <fornecedorCidade>City</fornecedorCidade>
+            <fornecedorComplemento>Address</fornecedorComplemento>
+            <fornecedorLogradouro>HARCOURT ROAD</fornecedorLogradouro>
+            <fornecedorNome>Empresa exportadora</fornecedorNome>
+            <fornecedorNumero>12</fornecedorNumero>
+            <freteMoedaNegociadaCodigo>000</freteMoedaNegociadaCodigo>
+            <freteValorMoedaNegociada>000000000006485</freteValorMoedaNegociada>
+            <freteValorReais>000000000031480</freteValorReais>
+            <iiAcordoTarifarioTipoCodigo>0</iiAcordoTarifarioTipoCodigo>
+            <iiAliquotaAcordo>00000</iiAliquotaAcordo>
+            <iiAliquotaAdValorem>01260</iiAliquotaAdValorem>
+            <iiAliquotaPercentualReducao>00000</iiAliquotaPercentualReducao>
+            <iiAliquotaReduzida>00000</iiAliquotaReduzida>
+            <iiAliquotaValorCalculado>000000000078555</iiAliquotaValorCalculado>
+            <iiAliquotaValorDevido>000000000078555</iiAliquotaValorDevido>
+            <iiAliquotaValorRecolher>000000000078555</iiAliquotaValorRecolher>
+            <iiAliquotaValorReduzido>000000000000000</iiAliquotaValorReduzido>
+            <iiBaseCalculo>000000000623485</iiBaseCalculo>
+            <iiFundamentoLegalCodigo>00</iiFundamentoLegalCodigo>
+            <iiMotivoAdmissaoTemporariaCodigo>00</iiMotivoAdmissaoTemporariaCodigo>
+            <iiRegimeTributacaoCodigo>1</iiRegimeTributacaoCodigo>
+            <iiRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</iiRegimeTributacaoNome>
+            <ipiAliquotaAdValorem>00000</ipiAliquotaAdValorem>
+            <ipiAliquotaEspecificaCapacidadeRecipciente>00000</ipiAliquotaEspecificaCapacidadeRecipciente>
+            <ipiAliquotaEspecificaQuantidadeUnidadeMedida>000000000</ipiAliquotaEspecificaQuantidadeUnidadeMedida>
+            <ipiAliquotaEspecificaTipoRecipienteCodigo>00</ipiAliquotaEspecificaTipoRecipienteCodigo>
+            <ipiAliquotaEspecificaValorUnidadeMedida>0000000000</ipiAliquotaEspecificaValorUnidadeMedida>
+            <ipiAliquotaNotaComplementarTIPI>00</ipiAliquotaNotaComplementarTIPI>
+            <ipiAliquotaReduzida>00000</ipiAliquotaReduzida>
+            <ipiAliquotaValorDevido>000000000000000</ipiAliquotaValorDevido>
+            <ipiAliquotaValorRecolher>000000000000000</ipiAliquotaValorRecolher>
+            <ipiRegimeTributacaoCodigo>4</ipiRegimeTributacaoCodigo>
+            <ipiRegimeTributacaoNome>SEM BENEFICIO</ipiRegimeTributacaoNome>
+            <mercadoria>
+                <descricaoMercadoria>Produto 13</descricaoMercadoria>
+                <numeroSequencialItem>01</numeroSequencialItem>
+                <quantidade>00001200000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045942</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 14</descricaoMercadoria>
+                <numeroSequencialItem>02</numeroSequencialItem>
+                <quantidade>00001600000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045937</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 15</descricaoMercadoria>
+                <numeroSequencialItem>03</numeroSequencialItem>
+                <quantidade>00001200000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045942</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 16</descricaoMercadoria>
+                <numeroSequencialItem>04</numeroSequencialItem>
+                <quantidade>00001600000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045937</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 17</descricaoMercadoria>
+                <numeroSequencialItem>05</numeroSequencialItem>
+                <quantidade>00007200000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045937</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 18</descricaoMercadoria>
+                <numeroSequencialItem>06</numeroSequencialItem>
+                <quantidade>00000400000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045950</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 19</descricaoMercadoria>
+                <numeroSequencialItem>07</numeroSequencialItem>
+                <quantidade>00007200000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045937</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 20</descricaoMercadoria>
+                <numeroSequencialItem>08</numeroSequencialItem>
+                <quantidade>00000400000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045950</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 21</descricaoMercadoria>
+                <numeroSequencialItem>09</numeroSequencialItem>
+                <quantidade>00002400000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045937</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 22</descricaoMercadoria>
+                <numeroSequencialItem>10</numeroSequencialItem>
+                <quantidade>00000400000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045950</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 23</descricaoMercadoria>
+                <numeroSequencialItem>11</numeroSequencialItem>
+                <quantidade>00002400000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045937</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 24</descricaoMercadoria>
+                <numeroSequencialItem>12</numeroSequencialItem>
+                <quantidade>00000400000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000045950</valorUnitario>
+            </mercadoria>
+            <numeroAdicao>006</numeroAdicao>
+            <numeroDI>123456789</numeroDI>
+            <numeroLI>0000000000</numeroLI>
+            <paisAquisicaoMercadoriaCodigo>1234</paisAquisicaoMercadoriaCodigo>
+            <paisAquisicaoMercadoriaNome>Country</paisAquisicaoMercadoriaNome>
+            <paisOrigemMercadoriaCodigo>1234</paisOrigemMercadoriaCodigo>
+            <paisOrigemMercadoriaNome>Country</paisOrigemMercadoriaNome>
+            <pisCofinsBaseCalculoAliquotaICMS>00000</pisCofinsBaseCalculoAliquotaICMS>
+            <pisCofinsBaseCalculoFundamentoLegalCodigo>00</pisCofinsBaseCalculoFundamentoLegalCodigo>
+            <pisCofinsBaseCalculoPercentualReducao>00000</pisCofinsBaseCalculoPercentualReducao>
+            <pisCofinsBaseCalculoValor>000000000623485</pisCofinsBaseCalculoValor>
+            <pisCofinsFundamentoLegalReducaoCodigo>00</pisCofinsFundamentoLegalReducaoCodigo>
+            <pisCofinsRegimeTributacaoCodigo>1</pisCofinsRegimeTributacaoCodigo>
+            <pisCofinsRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</pisCofinsRegimeTributacaoNome>
+            <pisPasepAliquotaAdValorem>00210</pisPasepAliquotaAdValorem>
+            <pisPasepAliquotaEspecificaQuantidadeUnidade>000000000</pisPasepAliquotaEspecificaQuantidadeUnidade>
+            <pisPasepAliquotaEspecificaValor>0000000000</pisPasepAliquotaEspecificaValor>
+            <pisPasepAliquotaReduzida>00000</pisPasepAliquotaReduzida>
+            <pisPasepAliquotaValorDevido>000000000013092</pisPasepAliquotaValorDevido>
+            <pisPasepAliquotaValorRecolher>000000000013092</pisPasepAliquotaValorRecolher>
+            <relacaoCompradorVendedor>Fabricante é desconhecido</relacaoCompradorVendedor>
+            <seguroMoedaNegociadaCodigo>000</seguroMoedaNegociadaCodigo>
+            <seguroValorMoedaNegociada>000000000000000</seguroValorMoedaNegociada>
+            <seguroValorReais>000000000001486</seguroValorReais>
+            <sequencialRetificacao>00</sequencialRetificacao>
+            <valorMultaARecolher>000000000000000</valorMultaARecolher>
+            <valorMultaARecolherAjustado>000000000000000</valorMultaARecolherAjustado>
+            <valorReaisFreteInternacional>000000000031480</valorReaisFreteInternacional>
+            <valorReaisSeguroInternacional>000000000001486</valorReaisSeguroInternacional>
+            <valorTotalCondicaoVenda>12127696000</valorTotalCondicaoVenda>
+            <vinculoCompradorVendedor>Não há vinculação entre comprador e vendedor.</vinculoCompradorVendedor>
+        </adicao>
+        <adicao>
+            <acrescimo>
+                <codigoAcrescimo>9 </codigoAcrescimo>
+                <denominacao>VALOR DE QUALQUER PARCELA                                   </denominacao>
+                <moedaNegociadaCodigo>220</moedaNegociadaCodigo>
+                <moedaNegociadaNome>DOLAR DOS EUA</moedaNegociadaNome>
+                <valorMoedaNegociada>000000000005017</valorMoedaNegociada>
+                <valorReais>000000000024354</valorReais>
+            </acrescimo>
+            <cideValorAliquotaEspecifica>00000000000</cideValorAliquotaEspecifica>
+            <cideValorDevido>000000000000000</cideValorDevido>
+            <cideValorRecolher>000000000000000</cideValorRecolher>
+            <codigoRelacaoCompradorVendedor>3</codigoRelacaoCompradorVendedor>
+            <codigoVinculoCompradorVendedor>1</codigoVinculoCompradorVendedor>
+            <cofinsAliquotaAdValorem>00965</cofinsAliquotaAdValorem>
+            <cofinsAliquotaEspecificaQuantidadeUnidade>000000000</cofinsAliquotaEspecificaQuantidadeUnidade>
+            <cofinsAliquotaEspecificaValor>0000000000</cofinsAliquotaEspecificaValor>
+            <cofinsAliquotaReduzida>00000</cofinsAliquotaReduzida>
+            <cofinsAliquotaValorDevido>000000000622940</cofinsAliquotaValorDevido>
+            <cofinsAliquotaValorRecolher>000000000622940</cofinsAliquotaValorRecolher>
+            <condicaoVendaIncoterm>FOB</condicaoVendaIncoterm>
+            <condicaoVendaLocal>NINGBO</condicaoVendaLocal>
+            <condicaoVendaMetodoValoracaoCodigo>01</condicaoVendaMetodoValoracaoCodigo>
+            <condicaoVendaMetodoValoracaoNome>METODO 1 - ART. 1 DO ACORDO (DECRETO 92930/86)</condicaoVendaMetodoValoracaoNome>
+            <condicaoVendaMoedaCodigo>220</condicaoVendaMoedaCodigo>
+            <condicaoVendaMoedaNome>DOLAR DOS EUA</condicaoVendaMoedaNome>
+            <condicaoVendaValorMoeda>000000001233878</condicaoVendaValorMoeda>
+            <condicaoVendaValorReais>000000005989613</condicaoVendaValorReais>
+            <dadosCambiaisCoberturaCambialCodigo>1</dadosCambiaisCoberturaCambialCodigo>
+            <dadosCambiaisCoberturaCambialNome>COM COBERTURA CAMBIAL E PAGAMENTO FINAL A PRAZO DE ATE' 180</dadosCambiaisCoberturaCambialNome>
+            <dadosCambiaisInstituicaoFinanciadoraCodigo>00</dadosCambiaisInstituicaoFinanciadoraCodigo>
+            <dadosCambiaisInstituicaoFinanciadoraNome>N/I</dadosCambiaisInstituicaoFinanciadoraNome>
+            <dadosCambiaisMotivoSemCoberturaCodigo>00</dadosCambiaisMotivoSemCoberturaCodigo>
+            <dadosCambiaisMotivoSemCoberturaNome>N/I</dadosCambiaisMotivoSemCoberturaNome>
+            <dadosCambiaisValorRealCambio>000000000000000</dadosCambiaisValorRealCambio>
+            <dadosCargaPaisProcedenciaCodigo>000</dadosCargaPaisProcedenciaCodigo>
+            <dadosCargaUrfEntradaCodigo>0000000</dadosCargaUrfEntradaCodigo>
+            <dadosCargaViaTransporteCodigo>00</dadosCargaViaTransporteCodigo>
+            <dadosMercadoriaAplicacao>REVENDA</dadosMercadoriaAplicacao>
+            <dadosMercadoriaCodigoNaladiNCCA>0000000</dadosMercadoriaCodigoNaladiNCCA>
+            <dadosMercadoriaCodigoNaladiSH>00000000</dadosMercadoriaCodigoNaladiSH>
+            <dadosMercadoriaCodigoNcm>84248910</dadosMercadoriaCodigoNcm>
+            <dadosMercadoriaCondicao>NOVA</dadosMercadoriaCondicao>
+            <dadosMercadoriaMedidaEstatisticaQuantidade>00097300000000</dadosMercadoriaMedidaEstatisticaQuantidade>
+            <dadosMercadoriaMedidaEstatisticaUnidade>UNIDADE</dadosMercadoriaMedidaEstatisticaUnidade>
+            <dadosMercadoriaNomeNcm>Aparelhos de pulverização constituídos por botão de pre</dadosMercadoriaNomeNcm>
+            <dadosMercadoriaPesoLiquido>000000907630000</dadosMercadoriaPesoLiquido>
+            <dcrCoeficienteReducao>00000</dcrCoeficienteReducao>
+            <dcrIdentificacao>00000000</dcrIdentificacao>
+            <dcrValorDevido>000000000000000</dcrValorDevido>
+            <dcrValorDolar>000000000000000</dcrValorDolar>
+            <dcrValorReal>000000000000000</dcrValorReal>
+            <dcrValorRecolher>000000000000000</dcrValorRecolher>
+            <destaqueNcm>
+                <numeroDestaque>999</numeroDestaque>
+            </destaqueNcm>
+            <fornecedorCidade>City</fornecedorCidade>
+            <fornecedorComplemento>Address</fornecedorComplemento>
+            <fornecedorLogradouro>HARCOURT ROAD</fornecedorLogradouro>
+            <fornecedorNome>Empresa exportadora</fornecedorNome>
+            <fornecedorNumero>12</fornecedorNumero>
+            <freteMoedaNegociadaCodigo>000</freteMoedaNegociadaCodigo>
+            <freteValorMoedaNegociada>000000000087805</freteValorMoedaNegociada>
+            <freteValorReais>000000000426234</freteValorReais>
+            <iiAcordoTarifarioTipoCodigo>0</iiAcordoTarifarioTipoCodigo>
+            <iiAliquotaAcordo>00000</iiAliquotaAcordo>
+            <iiAliquotaAdValorem>01440</iiAliquotaAdValorem>
+            <iiAliquotaPercentualReducao>00000</iiAliquotaPercentualReducao>
+            <iiAliquotaReduzida>00000</iiAliquotaReduzida>
+            <iiAliquotaValorCalculado>000000000929568</iiAliquotaValorCalculado>
+            <iiAliquotaValorDevido>000000000929568</iiAliquotaValorDevido>
+            <iiAliquotaValorRecolher>000000000929568</iiAliquotaValorRecolher>
+            <iiAliquotaValorReduzido>000000000000000</iiAliquotaValorReduzido>
+            <iiBaseCalculo>000000006455370</iiBaseCalculo>
+            <iiFundamentoLegalCodigo>00</iiFundamentoLegalCodigo>
+            <iiMotivoAdmissaoTemporariaCodigo>00</iiMotivoAdmissaoTemporariaCodigo>
+            <iiRegimeTributacaoCodigo>1</iiRegimeTributacaoCodigo>
+            <iiRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</iiRegimeTributacaoNome>
+            <ipiAliquotaAdValorem>00325</ipiAliquotaAdValorem>
+            <ipiAliquotaEspecificaCapacidadeRecipciente>00000</ipiAliquotaEspecificaCapacidadeRecipciente>
+            <ipiAliquotaEspecificaQuantidadeUnidadeMedida>000000000</ipiAliquotaEspecificaQuantidadeUnidadeMedida>
+            <ipiAliquotaEspecificaTipoRecipienteCodigo>00</ipiAliquotaEspecificaTipoRecipienteCodigo>
+            <ipiAliquotaEspecificaValorUnidadeMedida>0000000000</ipiAliquotaEspecificaValorUnidadeMedida>
+            <ipiAliquotaNotaComplementarTIPI>00</ipiAliquotaNotaComplementarTIPI>
+            <ipiAliquotaReduzida>00000</ipiAliquotaReduzida>
+            <ipiAliquotaValorDevido>000000000240010</ipiAliquotaValorDevido>
+            <ipiAliquotaValorRecolher>000000000240010</ipiAliquotaValorRecolher>
+            <ipiRegimeTributacaoCodigo>4</ipiRegimeTributacaoCodigo>
+            <ipiRegimeTributacaoNome>SEM BENEFICIO</ipiRegimeTributacaoNome>
+            <mercadoria>
+                <descricaoMercadoria>Produto 25</descricaoMercadoria>
+                <numeroSequencialItem>01</numeroSequencialItem>
+                <quantidade>00010000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000091875</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 26</descricaoMercadoria>
+                <numeroSequencialItem>02</numeroSequencialItem>
+                <quantidade>00004000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000091875</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 27</descricaoMercadoria>
+                <numeroSequencialItem>03</numeroSequencialItem>
+                <quantidade>00006000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000091875</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 28</descricaoMercadoria>
+                <numeroSequencialItem>04</numeroSequencialItem>
+                <quantidade>00002000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000284813</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 29</descricaoMercadoria>
+                <numeroSequencialItem>05</numeroSequencialItem>
+                <quantidade>00004500000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000096469</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 30</descricaoMercadoria>
+                <numeroSequencialItem>06</numeroSequencialItem>
+                <quantidade>00004500000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000110250</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 31</descricaoMercadoria>
+                <numeroSequencialItem>07</numeroSequencialItem>
+                <quantidade>00004500000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000110250</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 32</descricaoMercadoria>
+                <numeroSequencialItem>08</numeroSequencialItem>
+                <quantidade>00004000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000082688</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 33</descricaoMercadoria>
+                <numeroSequencialItem>09</numeroSequencialItem>
+                <quantidade>00006000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000078094</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 34</descricaoMercadoria>
+                <numeroSequencialItem>10</numeroSequencialItem>
+                <quantidade>00006000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000078094</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 35</descricaoMercadoria>
+                <numeroSequencialItem>11</numeroSequencialItem>
+                <quantidade>00004000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000142406</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 36</descricaoMercadoria>
+                <numeroSequencialItem>12</numeroSequencialItem>
+                <quantidade>00004000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000142406</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 37</descricaoMercadoria>
+                <numeroSequencialItem>13</numeroSequencialItem>
+                <quantidade>00003000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000147000</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 38</descricaoMercadoria>
+                <numeroSequencialItem>14</numeroSequencialItem>
+                <quantidade>00003000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000147000</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 39</descricaoMercadoria>
+                <numeroSequencialItem>15</numeroSequencialItem>
+                <quantidade>00002000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000082690</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 40</descricaoMercadoria>
+                <numeroSequencialItem>16</numeroSequencialItem>
+                <quantidade>00002000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000082690</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 41</descricaoMercadoria>
+                <numeroSequencialItem>17</numeroSequencialItem>
+                <quantidade>00001000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000174560</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 42</descricaoMercadoria>
+                <numeroSequencialItem>18</numeroSequencialItem>
+                <quantidade>00001000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000174560</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 43</descricaoMercadoria>
+                <numeroSequencialItem>19</numeroSequencialItem>
+                <quantidade>00001000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000174560</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 44</descricaoMercadoria>
+                <numeroSequencialItem>20</numeroSequencialItem>
+                <quantidade>00004300000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000206719</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 45</descricaoMercadoria>
+                <numeroSequencialItem>21</numeroSequencialItem>
+                <quantidade>00004000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000206720</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 46</descricaoMercadoria>
+                <numeroSequencialItem>22</numeroSequencialItem>
+                <quantidade>00004500000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000220500</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 47</descricaoMercadoria>
+                <numeroSequencialItem>23</numeroSequencialItem>
+                <quantidade>00006000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000137813</valorUnitario>
+            </mercadoria>
+            <mercadoria>
+                <descricaoMercadoria>Produto 48</descricaoMercadoria>
+                <numeroSequencialItem>24</numeroSequencialItem>
+                <quantidade>00006000000000</quantidade>
+                <unidadeMedida>PECA                </unidadeMedida>
+                <valorUnitario>00000000000000137813</valorUnitario>
+            </mercadoria>
+            <numeroAdicao>007</numeroAdicao>
+            <numeroDI>123456789</numeroDI>
+            <numeroLI>0000000000</numeroLI>
+            <paisAquisicaoMercadoriaCodigo>1234</paisAquisicaoMercadoriaCodigo>
+            <paisAquisicaoMercadoriaNome>Country</paisAquisicaoMercadoriaNome>
+            <paisOrigemMercadoriaCodigo>1234</paisOrigemMercadoriaCodigo>
+            <paisOrigemMercadoriaNome>Country</paisOrigemMercadoriaNome>
+            <pisCofinsBaseCalculoAliquotaICMS>00000</pisCofinsBaseCalculoAliquotaICMS>
+            <pisCofinsBaseCalculoFundamentoLegalCodigo>00</pisCofinsBaseCalculoFundamentoLegalCodigo>
+            <pisCofinsBaseCalculoPercentualReducao>00000</pisCofinsBaseCalculoPercentualReducao>
+            <pisCofinsBaseCalculoValor>000000006455370</pisCofinsBaseCalculoValor>
+            <pisCofinsFundamentoLegalReducaoCodigo>00</pisCofinsFundamentoLegalReducaoCodigo>
+            <pisCofinsRegimeTributacaoCodigo>1</pisCofinsRegimeTributacaoCodigo>
+            <pisCofinsRegimeTributacaoNome>RECOLHIMENTO INTEGRAL</pisCofinsRegimeTributacaoNome>
+            <pisPasepAliquotaAdValorem>00210</pisPasepAliquotaAdValorem>
+            <pisPasepAliquotaEspecificaQuantidadeUnidade>000000000</pisPasepAliquotaEspecificaQuantidadeUnidade>
+            <pisPasepAliquotaEspecificaValor>0000000000</pisPasepAliquotaEspecificaValor>
+            <pisPasepAliquotaReduzida>00000</pisPasepAliquotaReduzida>
+            <pisPasepAliquotaValorDevido>000000000135562</pisPasepAliquotaValorDevido>
+            <pisPasepAliquotaValorRecolher>000000000135562</pisPasepAliquotaValorRecolher>
+            <relacaoCompradorVendedor>Fabricante é desconhecido</relacaoCompradorVendedor>
+            <seguroMoedaNegociadaCodigo>000</seguroMoedaNegociadaCodigo>
+            <seguroValorMoedaNegociada>000000000000000</seguroValorMoedaNegociada>
+            <seguroValorReais>000000000015136</seguroValorReais>
+            <sequencialRetificacao>00</sequencialRetificacao>
+            <valorMultaARecolher>000000000000000</valorMultaARecolher>
+            <valorMultaARecolherAjustado>000000000000000</valorMultaARecolherAjustado>
+            <valorReaisFreteInternacional>000000000426234</valorReaisFreteInternacional>
+            <valorReaisSeguroInternacional>000000000015136</valorReaisSeguroInternacional>
+            <valorTotalCondicaoVenda>123388322000</valorTotalCondicaoVenda>
+            <vinculoCompradorVendedor>Não há vinculação entre comprador e vendedor.</vinculoCompradorVendedor>
+        </adicao>
+        <armazem>
+            <nomeArmazem>IPA DEICMA</nomeArmazem>
+        </armazem>
+        <armazenamentoRecintoAduaneiroCodigo>123456</armazenamentoRecintoAduaneiroCodigo>
+        <armazenamentoRecintoAduaneiroNome>Warehouse</armazenamentoRecintoAduaneiroNome>
+        <armazenamentoSetor>004</armazenamentoSetor>
+        <canalSelecaoParametrizada>001</canalSelecaoParametrizada>
+        <caracterizacaoOperacaoCodigoTipo>1</caracterizacaoOperacaoCodigoTipo>
+        <caracterizacaoOperacaoDescricaoTipo>Importação Própria</caracterizacaoOperacaoDescricaoTipo>
+        <cargaDataChegada>20240113</cargaDataChegada>
+        <cargaNumeroAgente>N/I</cargaNumeroAgente>
+        <cargaPaisProcedenciaCodigo>123</cargaPaisProcedenciaCodigo>
+        <cargaPaisProcedenciaNome>Country</cargaPaisProcedenciaNome>
+        <cargaPesoBruto>000003833885000</cargaPesoBruto>
+        <cargaPesoLiquido>000003617885000</cargaPesoLiquido>
+        <cargaUrfEntradaCodigo>0817800</cargaUrfEntradaCodigo>
+        <cargaUrfEntradaNome>PORTO DE SANTOS</cargaUrfEntradaNome>
+        <conhecimentoCargaEmbarqueData>20231111</conhecimentoCargaEmbarqueData>
+        <conhecimentoCargaEmbarqueLocal>PORTO DE NINGBO</conhecimentoCargaEmbarqueLocal>
+        <conhecimentoCargaId>CEMERCANTE31032008</conhecimentoCargaId>
+        <conhecimentoCargaIdMaster>152405005913578</conhecimentoCargaIdMaster>
+        <conhecimentoCargaTipoCodigo>12</conhecimentoCargaTipoCodigo>
+        <conhecimentoCargaTipoNome>HBL - House Bill of Lading</conhecimentoCargaTipoNome>
+        <conhecimentoCargaUtilizacao>1</conhecimentoCargaUtilizacao>
+        <conhecimentoCargaUtilizacaoNome>Total</conhecimentoCargaUtilizacaoNome>
+        <dataDesembaraco>20240115</dataDesembaraco>
+        <dataRegistro>20240115</dataRegistro>
+        <documentoChegadaCargaCodigoTipo>1</documentoChegadaCargaCodigoTipo>
+        <documentoChegadaCargaNome>Manifesto da Carga</documentoChegadaCargaNome>
+        <documentoChegadaCargaNumero>123456789</documentoChegadaCargaNumero>
+        <documentoInstrucaoDespacho>
+            <codigoTipoDocumentoDespacho>01</codigoTipoDocumentoDespacho>
+            <nomeDocumentoDespacho>FATURA COMERCIAL                                            </nomeDocumentoDespacho>
+            <numeroDocumentoDespacho>ABC-123</numeroDocumentoDespacho>
+        </documentoInstrucaoDespacho>
+        <documentoInstrucaoDespacho>
+            <codigoTipoDocumentoDespacho>01</codigoTipoDocumentoDespacho>
+            <nomeDocumentoDespacho>FATURA COMERCIAL                                            </nomeDocumentoDespacho>
+            <numeroDocumentoDespacho>ABC-123</numeroDocumentoDespacho>
+        </documentoInstrucaoDespacho>
+        <documentoInstrucaoDespacho>
+            <codigoTipoDocumentoDespacho>28</codigoTipoDocumentoDespacho>
+            <nomeDocumentoDespacho>CONHECIMENTO DE CARGA                                       </nomeDocumentoDespacho>
+            <numeroDocumentoDespacho>ABC-123</numeroDocumentoDespacho>
+        </documentoInstrucaoDespacho>
+        <documentoInstrucaoDespacho>
+            <codigoTipoDocumentoDespacho>29</codigoTipoDocumentoDespacho>
+            <nomeDocumentoDespacho>ROMANEIO DE CARGA                                           </nomeDocumentoDespacho>
+            <numeroDocumentoDespacho>ABC-123</numeroDocumentoDespacho>
+        </documentoInstrucaoDespacho>
+        <documentoInstrucaoDespacho>
+            <codigoTipoDocumentoDespacho>29</codigoTipoDocumentoDespacho>
+            <nomeDocumentoDespacho>ROMANEIO DE CARGA                                           </nomeDocumentoDespacho>
+            <numeroDocumentoDespacho>ABC-123</numeroDocumentoDespacho>
+        </documentoInstrucaoDespacho>
+        <embalagem>
+            <codigoTipoEmbalagem>41</codigoTipoEmbalagem>
+            <nomeEmbalagem>PACOTE                                                      </nomeEmbalagem>
+            <quantidadeVolume>01685</quantidadeVolume>
+        </embalagem>
+        <freteCollect>000000000350000</freteCollect>
+        <freteEmTerritorioNacional>000000000000000</freteEmTerritorioNacional>
+        <freteMoedaNegociadaCodigo>220</freteMoedaNegociadaCodigo>
+        <freteMoedaNegociadaNome>DOLAR DOS EUA</freteMoedaNegociadaNome>
+        <fretePrepaid>000000000000000</fretePrepaid>
+        <freteTotalDolares>000000000350000</freteTotalDolares>
+        <freteTotalMoeda>350000</freteTotalMoeda>
+        <freteTotalReais>000000001699005</freteTotalReais>
+        <icms/>
+        <importadorCodigoTipo>1</importadorCodigoTipo>
+        <importadorCpfRepresentanteLegal>123456789</importadorCpfRepresentanteLegal>
+        <importadorEnderecoBairro>Bairro</importadorEnderecoBairro>
+        <importadorEnderecoCep>123456789</importadorEnderecoCep>
+        <importadorEnderecoLogradouro>Logradouro</importadorEnderecoLogradouro>
+        <importadorEnderecoMunicipio>SAO PAULO</importadorEnderecoMunicipio>
+        <importadorEnderecoNumero>50</importadorEnderecoNumero>
+        <importadorEnderecoUf>SP</importadorEnderecoUf>
+        <importadorNome>Empresa importadora</importadorNome>
+        <importadorNomeRepresentanteLegal>Representante legal</importadorNomeRepresentanteLegal>
+        <importadorNumero>123456789</importadorNumero>
+        <importadorNumeroTelefone>123456789</importadorNumeroTelefone>
+        <informacaoComplementar>=================================================================
+TAXA DE UTILIZACAO DO SISTEMA DEBITADA, A FAVOR DA RECEITA
+FEDERAL, CONFORME PORTARIA MF Nr. 257 DE 20/05/2011,
+DISCIPLINADA PELA IN RFB Nr. 1.158 DE 24/05/2011.
+- TAXA SISCOMEX..: R$ 331,62
+=================================================================
+TAXA MERCADORIA......: 4,85430 - DOLAR DOS EUA
+TAXA DO FRETE........: 4,85430 - DOLAR DOS EUA
+TAXA DO DOLAR........: 4,85430
+=================================================================
+MLE - USD: 20.717,91 - USD: 20.717,91 - R$: 100.570,96
+FRETE - USD: 3.500,00 - USD: 3.500,00 - R$: 16.990,05
+SEGURO - USD: 52,65 - USD: 52,65 - R$: 255,58
+CIF - - USD: 24.470,56 - R$: 118.787,45
+=================================================================
+INCLUSO NA BASE DE CALCULO DO ICMS O ADICIONAL AO FRETE PARA A
+RENOVACAO DA MARINHA MERCANTE - CONFORME ARTIGO 24, INCISO IV, DA
+LEI N 6.374/1989, NA REDACAO DADA PELA LEI 11.001/2001.
+AFRMM NO VALOR DE R$: 1.656,87
+=================================================================
+CALCULOS DAS ADICOES:
+====================
+ADICAO: 001
+NCM: 40149090
+BASE DE CALCULO: II / PIS / COFINS: R$ 4.306,42
+VALOR DO II: R$ 620,12 14,40%
+BASE DE CALCULO IPI: R$ 4.926,54
+VALOR DO IPI: R$ 480,34 9,75 %
+VALOR DO PIS: R$ 90,43 2,10 %
+VALOR DO COFINS: R$ 415,57 9,65 %
+VALOR TAXA SISCOMEX: R$ 12,02
+REGIME ICMS: Recolhimento Integral
+BASE ICMS: R$ 7.247,19
+VALOR ICMS: R$ 1.304,49 18,00%
+VALOR ACRESCIMO: R$ 10,43
+=================================================================ADICAO: 002
+NCM: 70109090
+BASE DE CALCULO: II / PIS / COFINS: R$ 2.666,90
+VALOR DO II: R$ 240,02 9,00 %
+BASE DE CALCULO IPI: R$ 2.906,92
+VALOR DO IPI: R$ 283,42 9,75 %
+VALOR DO PIS: R$ 56,00 2,10 %
+VALOR DO COFINS: R$ 257,36 9,65 %
+VALOR TAXA SISCOMEX: R$ 7,45
+REGIME ICMS: Recolhimento Integral
+BASE ICMS: R$ 4.383,26
+VALOR ICMS: R$ 788,99 18,00%
+VALOR ACRESCIMO: R$ 48,71
+=================================================================ADICAO: 003
+NCM: 70109090
+BASE DE CALCULO: II / PIS / COFINS: R$ 6.397,00
+VALOR DO II: R$ 575,73 9,00 %
+BASE DE CALCULO IPI: R$ 6.972,73
+VALOR DO IPI: R$ 679,84 9,75 %
+VALOR DO PIS: R$ 134,34 2,10 %
+VALOR DO COFINS: R$ 617,31 9,65 %
+VALOR TAXA SISCOMEX: R$ 17,86
+REGIME ICMS: Recolhimento Integral
+BASE ICMS: R$ 10.535,98
+VALOR ICMS: R$ 1.896,48 18,00%
+VALOR ACRESCIMO: R$ 127,40
+=================================================================ADICAO: 004
+NCM: 70109090
+BASE DE CALCULO: II / PIS / COFINS: R$ 25.630,81
+VALOR DO II: R$ 2.306,77 9,00 %
+BASE DE CALCULO IPI: R$ 27.937,58
+VALOR DO IPI: R$ 2.723,91 9,75 %
+VALOR DO PIS: R$ 538,25 2,10 %
+VALOR DO COFINS: R$ 2.473,37 9,65 %
+VALOR TAXA SI
+SCOMEX: R$ 71,55
+REGIME ICMS: Recolhimento Integral
+BASE ICMS: R$ 41.972,49
+VALOR ICMS: R$ 7.555,05 18,00%
+VALOR ACRESCIMO: R$ 394,22
+=================================================================ADICAO: 005
+NCM: 70109090
+BASE DE CALCULO: II / PIS / COFINS: R$ 8.997,77
+VALOR DO II: R$ 809,80 9,00 %
+BASE DE CALCULO IPI: R$ 9.807,57
+VALOR DO IPI: R$ 956,24 9,75 %
+VALOR DO PIS: R$ 188,95 2,10 %
+VALOR DO COFINS: R$ 868,28 9,65 %
+VALOR TAXA SISCOMEX: R$ 25,12
+REGIME ICMS: Recolhimento Integral
+BASE ICMS: R$ 14.714,09
+VALOR ICMS: R$ 2.648,54 18,00%
+VALOR ACRESCIMO: R$ 128,55
+=================================================================ADICAO: 006
+NCM: 70172000
+BASE DE CALCULO: II / PIS / COFINS: R$ 6.234,85
+VALOR DO II: R$ 785,59 12,60%
+BASE DE CALCULO IPI: R$ 7.020,44
+VALOR DO IPI: R$ 0,00 0,00 %
+VALOR DO PIS: R$ 130,93 2,10 %
+VALOR DO COFINS: R$ 601,66 9,65 %
+VALOR TAXA SISCOMEX: R$ 17,41
+REGIME ICMS: Recolhimento Integral
+BASE ICMS: R$ 9.513,58
+VALOR ICMS: R$ 1.712,44 18,00%
+VALOR ACRESCIMO: R$ 17,99
+=================================================================ADICAO: 007
+NCM: 84248910
+BASE DE CALCULO: II / PIS / COFINS: R$ 64.553,70
+VALOR DO II: R$ 9.295,73 14,40%
+BASE DE CALCULO IPI: R$ 73.849,43
+VALOR DO IPI: R$ 2.400,11 3,25 %
+VALOR DO PIS: R$ 1.355,63 2,10 %
+VALOR DO COFINS: R$ 6.229,43 9,65 %
+VALOR TAXA SISCOMEX: R$ 180,21
+REGIME ICMS: Recolhimento Integral
+BASE ICMS: R$ 102.963,99
+VALOR ICMS: R$ 18.533,52 18,00%
+VALOR ACRESCIMO: R$ 243,56
+=================================================================
+FORMA DE PAGAMENTO
+===== == =========
+- COBERTURA CAMBIAL.........: PAGAMENTO FINAL ANTECIPADO
+- VALOR TOTAL...............: USD 20.717,91
+- APLICACAO DA MERCADORIA...: REVENDA
+================================================================
+CALCULO DE PIS E COFINS (2,10% E 9,65%), LEI 10.865 DE 30/04/2004
+ALTERADA PELA LEI 12.865 DE 09/10/2013, COMBINADA COM A IN SRF
+1.401 DE 09 DE OUTUBRO DE 2013. MEDIDA PROVISORIA 668/2015
+================================================================
+SIMPLES ENGANOS OU OMISSOES NA EMISSAO DA FATURA COMERCIAL ESTAO
+CORRIGIDOS OU CORRETAMENTE SUPRIDOS NESTA DECLARACAO DE
+IMPORTACAO, NAO ACARRETANDO A APLICACAO DE PENALIDADES CONFORME
+ARTIGO 715 PARAGRAFO 1 DO REGULAMENTO ADUANEIRO DECRETO 6759/09.
+===============================================================
+</informacaoComplementar>
+        <localDescargaTotalDolares>000000002447036</localDescargaTotalDolares>
+        <localDescargaTotalReais>000000011878654</localDescargaTotalReais>
+        <localEmbarqueTotalDolares>000000002091776</localEmbarqueTotalDolares>
+        <localEmbarqueTotalReais>000000010154182</localEmbarqueTotalReais>
+        <modalidadeDespachoCodigo>1</modalidadeDespachoCodigo>
+        <modalidadeDespachoNome>Normal</modalidadeDespachoNome>
+        <numeroDI>123456789</numeroDI>
+        <operacaoFundap>N</operacaoFundap>
+        <pagamento>
+            <agenciaPagamento>0001</agenciaPagamento>
+            <bancoPagamento>001</bancoPagamento>
+            <codigoReceita>0086</codigoReceita>
+            <codigoTipoPagamento>1</codigoTipoPagamento>
+            <contaPagamento>0000001</contaPagamento>
+            <dataPagamento>20240115</dataPagamento>
+            <nomeTipoPagamento>Débito em Conta</nomeTipoPagamento>
+            <numeroRetificacao>00</numeroRetificacao>
+            <valorJurosEncargos>000000000</valorJurosEncargos>
+            <valorMulta>000000000</valorMulta>
+            <valorReceita>000000001463376</valorReceita>
+        </pagamento>
+        <pagamento>
+            <agenciaPagamento>0001</agenciaPagamento>
+            <bancoPagamento>001</bancoPagamento>
+            <codigoReceita>1038</codigoReceita>
+            <codigoTipoPagamento>1</codigoTipoPagamento>
+            <contaPagamento>0000001</contaPagamento>
+            <dataPagamento>20240115</dataPagamento>
+            <nomeTipoPagamento>Débito em Conta</nomeTipoPagamento>
+            <numeroRetificacao>00</numeroRetificacao>
+            <valorJurosEncargos>000000000</valorJurosEncargos>
+            <valorMulta>000000000</valorMulta>
+            <valorReceita>000000000752386</valorReceita>
+        </pagamento>
+        <pagamento>
+            <agenciaPagamento>0001</agenciaPagamento>
+            <bancoPagamento>001</bancoPagamento>
+            <codigoReceita>7811</codigoReceita>
+            <codigoTipoPagamento>1</codigoTipoPagamento>
+            <contaPagamento>0000001</contaPagamento>
+            <dataPagamento>20240115</dataPagamento>
+            <nomeTipoPagamento>Débito em Conta</nomeTipoPagamento>
+            <numeroRetificacao>00</numeroRetificacao>
+            <valorJurosEncargos>000000000</valorJurosEncargos>
+            <valorMulta>000000000</valorMulta>
+            <valorReceita>000000000033162</valorReceita>
+        </pagamento>
+        <pagamento>
+            <agenciaPagamento>0001</agenciaPagamento>
+            <bancoPagamento>001</bancoPagamento>
+            <codigoReceita>5602</codigoReceita>
+            <codigoTipoPagamento>1</codigoTipoPagamento>
+            <contaPagamento>0000001</contaPagamento>
+            <dataPagamento>20240115</dataPagamento>
+            <nomeTipoPagamento>Débito em Conta</nomeTipoPagamento>
+            <numeroRetificacao>00</numeroRetificacao>
+            <valorJurosEncargos>000000000</valorJurosEncargos>
+            <valorMulta>000000000</valorMulta>
+            <valorReceita>000000000249453</valorReceita>
+        </pagamento>
+        <pagamento>
+            <agenciaPagamento>0001</agenciaPagamento>
+            <bancoPagamento>001</bancoPagamento>
+            <codigoReceita>5629</codigoReceita>
+            <codigoTipoPagamento>1</codigoTipoPagamento>
+            <contaPagamento>0000001</contaPagamento>
+            <dataPagamento>20240115</dataPagamento>
+            <nomeTipoPagamento>Débito em Conta</nomeTipoPagamento>
+            <numeroRetificacao>00</numeroRetificacao>
+            <valorJurosEncargos>000000000</valorJurosEncargos>
+            <valorMulta>000000000</valorMulta>
+            <valorReceita>000000001146298</valorReceita>
+        </pagamento>
+        <seguroMoedaNegociadaCodigo>220</seguroMoedaNegociadaCodigo>
+        <seguroMoedaNegociadaNome>DOLAR DOS EUA</seguroMoedaNegociadaNome>
+        <seguroTotalDolares>000000000005265</seguroTotalDolares>
+        <seguroTotalMoedaNegociada>000000000005265</seguroTotalMoedaNegociada>
+        <seguroTotalReais>000000000025557</seguroTotalReais>
+        <sequencialRetificacao>00</sequencialRetificacao>
+        <situacaoEntregaCarga>ENTREGA NAO AUTORIZADA</situacaoEntregaCarga>
+        <tipoDeclaracaoCodigo>01</tipoDeclaracaoCodigo>
+        <tipoDeclaracaoNome>CONSUMO</tipoDeclaracaoNome>
+        <totalAdicoes>007</totalAdicoes>
+        <urfDespachoCodigo>0817800</urfDespachoCodigo>
+        <urfDespachoNome>PORTO DE SANTOS</urfDespachoNome>
+        <valorTotalMultaARecolherAjustado>000000000000000</valorTotalMultaARecolherAjustado>
+        <viaTransporteCodigo>01</viaTransporteCodigo>
+        <viaTransporteMultimodal>N</viaTransporteMultimodal>
+        <viaTransporteNome>MARÍTIMA</viaTransporteNome>
+        <viaTransporteNomeTransportador>Boat</viaTransporteNomeTransportador>
+        <viaTransporteNomeVeiculo>Boat</viaTransporteNomeVeiculo>
+        <viaTransportePaisTransportadorCodigo>607</viaTransportePaisTransportadorCodigo>
+        <viaTransportePaisTransportadorNome>PORTUGAL</viaTransportePaisTransportadorNome>
+    </declaracaoImportacao>
+</ListaDeclaracoes>
