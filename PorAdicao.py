@@ -8,61 +8,70 @@ nfe = ReadXML.nfe
 
 # Informação complementar
 def getinformacaoComplementar():
+    # Função que retorna uma string com os dados contidos dentro da tag de Informação Complementar.
     get = nfe.getElementsByTagName('informacaoComplementar')
-    informacaoComplementar = get[0].firstChild.data
-    return informacaoComplementar
+    informacao_complementar = get[0].firstChild.data
+    return informacao_complementar
+
 
 # Moedas negociadas
-def getCambioMoedaProd():#Dividindo o valor da tag condicaoVendaValorReais pelo da tag condicaoVendaValorMoeda
-    getVrMoedaNegociada = nfe.getElementsByTagName('condicaoVendaValorMoeda')
-    vrMoedaNegociada = float(getVrMoedaNegociada[0].firstChild.data[:13] + "." + getVrMoedaNegociada[0].firstChild.data[-2:])
-    getVrReais = nfe.getElementsByTagName('condicaoVendaValorReais')
-    vrReais = float(getVrReais[0].firstChild.data[:13] + "." + getVrReais[0].firstChild.data[-2:])
-    vrMoedaNegociada = round((vrReais / vrMoedaNegociada), 4)
-    return vrMoedaNegociada
+def getCambioMoedaProd():
+    # Função que retorna o valor de câmbio de produtos usando a fórmula: Dividindo o valor da tag
+    # condicaoVendaValorReais pelo da tag condicaoVendaValorMoeda
+    get_vr_moeda_negociada = nfe.getElementsByTagName('condicaoVendaValorMoeda')
+    vr_moeda_negociada = float(get_vr_moeda_negociada[0].firstChild.data[:13] + "."
+                               + get_vr_moeda_negociada[0].firstChild.data[-2:])
+    get_vr_reais = nfe.getElementsByTagName('condicaoVendaValorReais')
+    vr_reais = float(get_vr_reais[0].firstChild.data[:13] + "." + get_vr_reais[0].firstChild.data[-2:])
+    vr_moeda_negociada = round((vr_reais / vr_moeda_negociada), 4)
+    return vr_moeda_negociada
 
 # Números das adições:
 def getNrAdicao():
+    # Função que retorna os números de cada adição.
     get = nfe.getElementsByTagName('numeroAdicao')
-    nradicoes_dict = dict()
+    nr_adicoes_dict = dict()
     c = 0
     for i in get:
         item = int(get[c].firstChild.data)
-        nradicoes_dict.update({c + 1: item})
+        nr_adicoes_dict.update({c + 1: item})
         c += 1
-    return nradicoes_dict
+    return nr_adicoes_dict
 
 # Valores por Adição
 
 def getVrProdutosXmlAdicao():
+    # Função que retorna os valores totais de produtos por adição.
     get = nfe.getElementsByTagName('valorTotalCondicaoVenda')
     produtos_dict = dict()
     c = 0
     for i in get:
-        tagvalue = get[c].firstChild.data
-        if len(tagvalue) == 8:
+        tag_value = get[c].firstChild.data
+        if len(tag_value) == 8:
             produtos_dict.update({c + 1: round(float(get[c].firstChild.data[:1] +
                                                 "." + get[c].firstChild.data[-7:]) * getCambioMoedaProd(), 2)})
-        if len(tagvalue) == 9:
+        if len(tag_value) == 9:
             produtos_dict.update({c + 1: round(float(get[c].firstChild.data[:2] +
                                                 "." + get[c].firstChild.data[-7:]) * getCambioMoedaProd(), 2)})
-        if len(tagvalue) == 10:
+        if len(tag_value) == 10:
             produtos_dict.update({c + 1: round(float(get[c].firstChild.data[:3] +
                                                 "." + get[c].firstChild.data[-7:]) * getCambioMoedaProd(), 2)})
 
-        if len(tagvalue) == 11:
+        if len(tag_value) == 11:
             produtos_dict.update({c + 1: round(float(get[c].firstChild.data[:4] +
                                                 "." + get[c].firstChild.data[-7:]) * getCambioMoedaProd(), 2)})
-        if len(tagvalue) == 12:
+        if len(tag_value) == 12:
             produtos_dict.update({c + 1: round(float(get[c].firstChild.data[:5] +
                                                 "." + get[c].firstChild.data[-7:]) * getCambioMoedaProd(), 2)})
-        if len(tagvalue) == 13:
+        if len(tag_value) == 13:
             produtos_dict.update({c + 1: round(float(get[c].firstChild.data[:6] +
                                                 "." + get[c].firstChild.data[-6:]) * getCambioMoedaProd(), 2)})
         c += 1
     return produtos_dict
 
+
 def getVrFreteAdicao():
+    # Função que retorna os valores de Frete por adição.
     get = nfe.getElementsByTagName('freteValorReais')
     frete_dict = dict()
     c = 0
@@ -71,7 +80,9 @@ def getVrFreteAdicao():
         c += 1
     return frete_dict
 
+
 def getSeguroAdicao():
+    # Função que retorna os valores de Seguro por adição.
     get = nfe.getElementsByTagName('valorReaisSeguroInternacional')
     seguro_dict = dict()
     c = 0
@@ -81,98 +92,138 @@ def getSeguroAdicao():
     return seguro_dict
 
 
+def getVrAcrescimoAdicao():
+    # Função que retorna os valores de Acréscimo por adição.
+    get_adicao = nfe.getElementsByTagName('adicao')
+    vr_acrescimo_dict = dict()
+    c = 1
+    for i in get_adicao:
+        get_acrescimo = i.getElementsByTagName('acrescimo')
+        if get_acrescimo:
+            # Se a tag <acrescimo> existir no XML, recupera os valores das tags <valorReais>
+            valor_reais = get_acrescimo[0].getElementsByTagName('valorReais')[0].firstChild.nodeValue
+            if len(valor_reais) == 15:
+                vr_acrescimo_dict.update({c: float(valor_reais[:13] + "." + valor_reais[-2:])})
+        else:
+            vr_acrescimo_dict.update({list(getNrAdicao().values())[c -1]: 0.0})
+        c += 1
+    return vr_acrescimo_dict
+
+
 def getCIFAdicao():
+    # Função que calcula e retorna os valores de CIF por adição.
+    # A fórmula é: Vr Produtos + VrFrete + VrSeguro + VrAcréscimo
     cif_dict = dict()
-    for adicao, produtos, frete, seguro in zip(
-        getNrAdicao().values(), getVrProdutosXmlAdicao().values(),
-        getVrFreteAdicao().values(), getSeguroAdicao().values()):
-        soma = round(float(produtos + frete + seguro), 2)
+    for adicao, produtos, frete, seguro, acrescimo in zip(
+            getNrAdicao().values(), getVrProdutosXmlAdicao().values(),
+            getVrFreteAdicao().values(), getSeguroAdicao().values(), getVrAcrescimoAdicao().values()):
+        soma = round(float(produtos + frete + seguro + acrescimo), 2)
         cif_dict.update({adicao: soma})
     return cif_dict
 
+
 def getBcIIAdicao():
+    # Função que retorna as bases de cálculo de Imposto de Importação (I.I.) por adição.
     get = nfe.getElementsByTagName('iiBaseCalculo')
-    bcii_dict = dict()
+    bc_ii_dict = dict()
     c = 0
     for i in get:
-        bcii_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
+        bc_ii_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return bcii_dict
+    return bc_ii_dict
+
 
 def getAliqII():
+    # Função que retorna as alíquotas de Imposto de Importação (I.I.) por adição.
     get = nfe.getElementsByTagName('iiAliquotaAdValorem')
-    aliqii_dict = dict()
+    aliq_ii_dict = dict()
     c = 0
     for i in get:
-        aliqii_dict.update({c + 1: float(get[c].firstChild.data[:3] + "." + get[c].firstChild.data[-2:])})
+        aliq_ii_dict.update({c + 1: float(get[c].firstChild.data[:3] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return aliqii_dict
+    return aliq_ii_dict
+
 
 def getVrIIAdicao():
+    # Função que retorna que os valores de Imposto de Importação (I.I.) por adição.
     get = nfe.getElementsByTagName('iiAliquotaValorRecolher')
-    vrii_dict = dict()
+    vr_ii_dict = dict()
     c = 0
     for i in get:
-        vrii_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
+        vr_ii_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return vrii_dict
+    return vr_ii_dict
+
 
 def getBcPisCofinsAdicao():
+    # Função que retorna que os valores de base de cálculo de Pis e Cofins por adição.
     get = nfe.getElementsByTagName('pisCofinsBaseCalculoValor')
-    bcpiscofins_dict = dict()
+    bc_piscofins_dict = dict()
     c = 0
     for i in get:
-        bcpiscofins_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
+        bc_piscofins_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return bcpiscofins_dict
+    return bc_piscofins_dict
+
 
 def getBcPisCofinsTotal():
+    # Função que retorna o valor total de base de cálculo de Pis e Cofins.
     get = nfe.getElementsByTagName('pisCofinsBaseCalculoValor')
-    bcpiscofins_dict = dict()
+    bc_piscofins_dict = dict()
     c = 0
     for i in get:
-        bcpiscofins_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
+        bc_piscofins_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    bcPisCofinsTotal = sum(bcpiscofins_dict.values())
-    return bcPisCofinsTotal
+    bc_pis_cofins_total = sum(bc_piscofins_dict.values())
+    return bc_pis_cofins_total
+
 
 def getAliqCofinsAdicao():
+    # Função que retorna as alíquotas de Cofins por adição.
     get = nfe.getElementsByTagName('cofinsAliquotaAdValorem')
-    aliqcofins_dict = dict()
+    aliq_cofins_dict = dict()
     c = 0
     for i in get:
-        aliqcofins_dict.update({c + 1: float(get[c].firstChild.data[:3] + "." + get[c].firstChild.data[-2:])})
+        aliq_cofins_dict.update({c + 1: float(get[c].firstChild.data[:3] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return aliqcofins_dict
+    return aliq_cofins_dict
+
 
 def getVrCofinsAdicao():
+    # Função que retorna os valores de Cofins por adição.
     get = nfe.getElementsByTagName('cofinsAliquotaValorRecolher')
-    vrcofins_dict = dict()
+    vr_cofins_dict = dict()
     c = 0
     for i in get:
-        vrcofins_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
+        vr_cofins_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return vrcofins_dict
+    return vr_cofins_dict
+
 
 def getAliqPisAdicao():
+    # Função que retorna as alíquotas de Pis por adição.
     get = nfe.getElementsByTagName('pisPasepAliquotaAdValorem')
-    aliqpis_dict = dict()
+    aliq_pis_dict = dict()
     c = 0
     for i in get:
-        aliqpis_dict.update({c + 1: float(get[c].firstChild.data[:3] + "." + get[c].firstChild.data[-2:])})
+        aliq_pis_dict.update({c + 1: float(get[c].firstChild.data[:3] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return aliqpis_dict
+    return aliq_pis_dict
+
 
 def getVrPisAdicao():
+    # Função que retorna os valores de Pis por adição.
     get = nfe.getElementsByTagName('pisPasepAliquotaValorRecolher')
-    vrcofins_dict = dict()
+    vr_cofins_dict = dict()
     c = 0
     for i in get:
-        vrcofins_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
+        vr_cofins_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return vrcofins_dict
+    return vr_cofins_dict
+
 
 def getNCMAdicao():
+    # Função que retorna os códigos NCM por adição.
     get = nfe.getElementsByTagName('dadosMercadoriaCodigoNcm')
     ncm_dict = dict()
     c = 0
@@ -182,135 +233,153 @@ def getNCMAdicao():
     return ncm_dict
 
 def getAliqIpi():
+    # Função que retorna as alíquotas de Ipi por adição.
     get = nfe.getElementsByTagName('ipiAliquotaAdValorem')
-    aliqipi_dict = dict()
+    aliq_ipi_dict = dict()
     c = 0
     for i in get:
-        aliqipi_dict.update({c + 1: float(get[c].firstChild.data[:3] + "." + get[c].firstChild.data[-2:])})
+        aliq_ipi_dict.update({c + 1: float(get[c].firstChild.data[:3] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return aliqipi_dict
+    return aliq_ipi_dict
 
 def getVrIpiAdicao():
+    # Função que retorna os valores de Ipi por adição.
     get = nfe.getElementsByTagName('ipiAliquotaValorRecolher')
-    vripi_dict = dict()
+    vr_ipi_dict = dict()
     c = 0
     for i in get:
-        vripi_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
+        vr_ipi_dict.update({c + 1: float(get[c].firstChild.data[:13] + "." + get[c].firstChild.data[-2:])})
         c += 1
-    return vripi_dict
+    return vr_ipi_dict
+
 
 def getVrSiscomexAdicao():
+    # Função que retorna os valores de Siscomex por adição.
+    # Variáveis
     dados = getinformacaoComplementar().replace('-', '').replace('.', '').splitlines()
-    busca = ['Taxa Siscomex', 'SCOMEX: R$']
-    valorSiscomex_dict = dict()
+    busca = ['Taxa Siscomex', 'SCOMEX: R$', 'SISCOMEX ( 7811 )', 'SISCOMEX 7811']
+    vr_siscomex_dict = dict()
     c = 0
-    totalbc = getBcPisCofinsTotal()
+    total_bc = getBcPisCofinsTotal()
+    # Loop para ler a informação complentar e procuras as string informadas na variável busca.
     for i in dados:
         for j in busca:
             if j in i:
-                valorSiscomex_dict.update({c + 1: float(i[-7:].replace(',', '.').translate(str.maketrans('', '', ' R$Xx:')))})
+                vr_siscomex_dict.update({c + 1: float(i[-7:].replace(',', '.')
+                                                      .translate(str.maketrans('', '', ' R$Xx:')))})
                 c += 1
+    # Verificações
+    # 1 - Verifica se o tamanho de vr_siscomex_dict é maior que a quantidade de adições. Se for True, então verifica
+    # se o valor da soma dos valores dentro de vr_siscomex_dict é igual ao primeiro valor de Siscomex encontrado.
+    # Caso seja True, então a primeira chave com seu valor é removido do dict. Isso pode ocorrer em casos de o Siscomex
+    # ser informado totalizado no início da informação complementar, e também ter os valores descritos por adição.
+    if len(vr_siscomex_dict) > len(getNrAdicao()):
+        if round(sum(vr_siscomex_dict.values()) - list(vr_siscomex_dict.values())[0], 2) \
+                == list(vr_siscomex_dict.values())[0]:
+            new_dict = dict()
+            for key, value in zip(vr_siscomex_dict.keys(), vr_siscomex_dict.values()):
+                new_dict.update({key - 1: value})
+            vr_siscomex_dict = new_dict
+            vr_siscomex_dict.pop(0)
 
-    if len(valorSiscomex_dict) > len(getNrAdicao()):
-        if sum(valorSiscomex_dict.values()) - list(valorSiscomex_dict.values())[0] \
-                == list(valorSiscomex_dict.values())[0]:
-            newdict = dict()
-            for key, value in zip(valorSiscomex_dict.keys(), valorSiscomex_dict.values()):
-                newdict.update({key - 1: value})
-            valorSiscomex_dict = newdict
-            valorSiscomex_dict.pop(0)
-            return valorSiscomex_dict
+            return vr_siscomex_dict
 
-    if len(valorSiscomex_dict) == 0:
+    # 2 - Verifica se o tamanho de vr_siscomex_dict é igual a 0. Se for True, quer dizer que a DI não possui Siscomex
+    # e então é passado o valor de 0 em cada chave.
+    if len(vr_siscomex_dict) == 0:
         for iv in getNrAdicao().values():
-            valorSiscomex_dict.update({iv: 0.0})
-        return valorSiscomex_dict
+            vr_siscomex_dict.update({iv: 0.0})
+        return vr_siscomex_dict
 
-    if len(valorSiscomex_dict) == len(getNrAdicao()):
-        return valorSiscomex_dict
+    # 3 - Verifica se o tamanho de vr_siscomex_dict é igual a quantidade de adições. Se for True, então quer dizer que
+    # os valores de Siscomex foram informados para cada adição, e então retorna o vr_siscomex_dict sem alteração.
+    if len(vr_siscomex_dict) == len(getNrAdicao()):
+        return vr_siscomex_dict
 
-    if len(valorSiscomex_dict) == 1 and len(getNrAdicao()) > 1:
-        for vrUSiscomex, iv in zip(valorSiscomex_dict.values(), valorSiscomex_dict.keys()):
-            for nrAdicao, vrBcAdicao, in zip(getNrAdicao(), getBcPisCofinsAdicao().values()):
-                valorSiscomex_dict.update({nrAdicao: round(float(vrUSiscomex * (vrBcAdicao / totalbc)), 2)})
-            return valorSiscomex_dict
+    # 4 - Verifica se o tamanho de vr_siscomex_dict é = a 1 e a quantidade de adições é > que 1. Se for True, calcula o
+    # valor de Siscomex por adição e retorna o vr_siscomex_dict com os valores atualizados.
+    if len(vr_siscomex_dict) == 1 and len(getNrAdicao()) > 1:
+        for vr_u_siscomex, iv in zip(vr_siscomex_dict.values(), vr_siscomex_dict.keys()):
+            for nr_adicao, vr_bc_adicao, in zip(getNrAdicao(), getBcPisCofinsAdicao().values()):
+                vr_siscomex_dict.update({nr_adicao: round(float(vr_u_siscomex * (vr_bc_adicao / total_bc)), 2)})
+            return vr_siscomex_dict
+
 
 def inAliqIcms():
+    # Função que retorna as alíquitos de ICMS por adição.
     # Variáveis
-    aliqicms_dict = dict()
+    aliq_icms_dict = dict()
     # Variáveis para trabalhar com as decisões
     # Listas para os ifs e whiles
     nao = ['N', 'Não', 'n', 'não', 'nao']
     sim = ['S', 'Sim', 's', 'sim']
     simnao = sim + nao
     # Decisão 1
-    textdecisao1 = 'A DI possui incidência de ICMS?\nDigite S para Sim e N para Não: '
+    texto_decisao_1 = 'A DI possui incidência de ICMS?\nDigite S para Sim e N para Não: '
     # Decisão 2
-    textdecisao2 = 'Todas as adições possuem a mesma alíquota de ICMS?\nDigite S para Sim e N para Não: '
+    texto_decisao_2 = 'Todas as adições possuem a mesma alíquota de ICMS?\nDigite S para Sim e N para Não: '
     # Se opção errada
-    opcaoerrada = 'Opção errada! Informe a opção correta!'
+    opcao_errada = 'Opção errada! Informe a opção correta!'
 
     # Inicio
 
     # Decisão 1
-    decisao1 = input(f'{textdecisao1}')
-    while decisao1 not in simnao:
-        print(opcaoerrada)
-        decisao1 = input(f'{textdecisao1}')
+    decisao_1 = input(f'{texto_decisao_1}')
+    while decisao_1 not in simnao:
+        print(opcao_errada)
+        decisao_1 = input(f'{texto_decisao_1}')
 
-    if decisao1 in nao:
-        for i in decisao1:
+    if decisao_1 in nao:
+        for i in decisao_1:
             for ii in getNrAdicao().values():
-                aliqicms_dict.update({ii: 0.00})
-            return aliqicms_dict
+                aliq_icms_dict.update({ii: 0.00})
+            return aliq_icms_dict
 
-    if decisao1 in sim:
+    if decisao_1 in sim:
         # Decisão 2
-        decisao2 = input(f'{textdecisao2}')
-        while decisao2 not in simnao:
-            print(opcaoerrada)
-            decisao2 = input(f'{textdecisao2}')
+        decisao_2 = input(f'{texto_decisao_2}')
+        while decisao_2 not in simnao:
+            print(opcao_errada)
+            decisao_2 = input(f'{texto_decisao_2}')
 
-        if decisao2 in sim:
+        if decisao_2 in sim:
             while True:
                 entrada = input('Informe o valor da alíquota ICMS: ')
                 try:
                     valor = float(entrada)
-                    if valor.is_integer():
-                        valor = int(valor)
-                        for i in getNrAdicao().values():
-                            aliqicms_dict.update({i: valor})
-                    return aliqicms_dict
+                    for i in getNrAdicao().values():
+                        aliq_icms_dict.update({i: valor})
+                    return aliq_icms_dict
                 except ValueError:
                     print('Não é um número válido! Informe um valor correto.')
 
-        if decisao2 in nao:
+        if decisao_2 in nao:
             for i in getNrAdicao().values():
                 while True:
                     entrada = input(f'Informe o valor da alíquota ICMS da adição {i}: ')
                     try:
                         valor = float(entrada)
-                        if valor.is_integer():
-                            valor = int(valor)
-                            aliqicms_dict.update({i: float(valor)})
+                        aliq_icms_dict.update({i: float(valor)})
                         break
                     except ValueError:
                         print('Não é um número válido! Informe um valor correto.')
 
-        return aliqicms_dict
-aliqicms_global = inAliqIcms()
+        return aliq_icms_dict
+aliqicms_global = inAliqIcms() # Variável global que armazena as alíquiros de ICMS de cada adição.
+
 
 def getVrAFRMMAdicao():
-    dados = getinformacaoComplementar().replace('-', '').replace('.', '').replace(':', '') .splitlines()
+    # Função que retorna o valor de AFRMM por adição.
+    get = getinformacaoComplementar().replace('-', '').replace('.', '').replace(':', '') .splitlines()
     # Variáveis para trabalhar com as decisões
     # Listas para os ifs e whiles
     nao = ['N', 'Não', 'n', 'não', 'nao']
     sim = ['S', 'Sim', 's', 'sim']
-    simnao = sim + nao
+    sim_nao = sim + nao
     # Decisão
-    textdecisao = 'A DI possui incidência de AFRMM?\nDigite S para Sim e N para Não: '
+    texto_decisao = 'A DI possui incidência de AFRMM?\nDigite S para Sim e N para Não: '
     # Se opção errada
-    opcaoerrada = 'Opção errada! Informe a opção correta!'
+    opcao_errada = 'Opção errada! Informe a opção correta!'
     # Verificação do valor AFRMM digitado
     valorerrado = 'Valor errado!\n Informe um valor numérico inteiro ou decimal com . na separação dos décimos.'
     # Demais variáveis
@@ -321,10 +390,10 @@ def getVrAFRMMAdicao():
 
     # Início
     # Decisão 1
-    decisao = input(f'{textdecisao}')
-    while decisao not in simnao:
-        print(opcaoerrada)
-        decisao = input(f'{textdecisao}')
+    decisao = input(f'{texto_decisao}')
+    while decisao not in sim_nao:
+        print(opcao_errada)
+        decisao = input(f'{texto_decisao}')
 
     if decisao in nao:
         for i in decisao:
@@ -332,7 +401,7 @@ def getVrAFRMMAdicao():
                 afrmm_dict.update({ii: 0.00})
             return afrmm_dict
 
-    for iii in dados:
+    for iii in get:
         for iv in busca:
             if iv in iii:
                 afrmm_dict.update({c + 1: float(iii[-8:].replace(' R$ ', '').replace('$', '').replace(',', '.'))})
@@ -385,89 +454,82 @@ def getVrAFRMMAdicao():
             for nrAdicao, vrFreteAdicao, in zip(getNrAdicao(), getVrFreteAdicao().values()):
                 afrmm_dict.update({nrAdicao: round(float(vrUAfrmm * (vrFreteAdicao / totalfrete)), 2)})
             return afrmm_dict
-afrmm_global = getVrAFRMMAdicao()
+afrmm_global = getVrAFRMMAdicao() # Variável global que armazena os valores da AFRMM por adição
 
-def getVrAcrescimoAdicao():
-    getadicao = nfe.getElementsByTagName('adicao')
-    vracrescimo_dict = dict()
-    c = 1
-    for i in getadicao:
-        getacrescimo = i.getElementsByTagName('acrescimo')
-        if getacrescimo:
-            # Se a tag <acrescimo> existir no XML, recupera os valores das tags <valorReais>
-            valor_reais = getacrescimo[0].getElementsByTagName('valorReais')[0].firstChild.nodeValue
-            if len(valor_reais) == 15:
-                vracrescimo_dict.update({c: float(valor_reais[:13] + "." + valor_reais[-2:])})
-        else:
-            vracrescimo_dict.update({list(getNrAdicao().values())[c -1]: 0.0})
-        c += 1
-    return vracrescimo_dict
 
 def getBCIcmsAdicao():
-    nradicao = getNrAdicao()
-    baseicms_dict = dict()
-    vrcif = getCIFAdicao()
-    vrii = getVrIIAdicao()
-    vripi = getVrIpiAdicao()
-    vrpis = getVrPisAdicao()
-    vrcofins = getVrCofinsAdicao()
-    vrsiscomex = getVrSiscomexAdicao()
-    vrafrmm = afrmm_global
-    vracrescimo = getVrAcrescimoAdicao()
-    aliqicms = aliqicms_global
-    for adicao, cif, ii, ipi, pis, cofins, siscomex, afrmm, acrescimo, aliquota in \
-            zip(nradicao.values(), vrcif.values(), vrii.values(), vripi.values(),
-                vrpis.values(), vrcofins.values(), vrsiscomex.values(), vrafrmm.values(), vracrescimo.values(),
-                aliqicms.values()):
+    # Função que calcula e retorna o valor da base de ICMS de cada adição.
+    nr_adicao = getNrAdicao()
+    base_icms_dict = dict()
+    vr_cif = getCIFAdicao()
+    vr_ii = getVrIIAdicao()
+    vr_ipi = getVrIpiAdicao()
+    vr_pis = getVrPisAdicao()
+    vr_cofins = getVrCofinsAdicao()
+    vr_siscomex = getVrSiscomexAdicao()
+    vr_afrmm = afrmm_global
+    aliq_icms = aliqicms_global
+    for adicao, cif, ii, ipi, pis, cofins, siscomex, afrmm, aliquota in \
+            zip(nr_adicao.values(), vr_cif.values(), vr_ii.values(), vr_ipi.values(),
+                vr_pis.values(), vr_cofins.values(), vr_siscomex.values(), vr_afrmm.values(), aliq_icms.values()):
         fatorbase = round(float(1 - (aliquota * 0.01)), 2)
-        total = (cif + ii + ipi + pis + cofins + siscomex + afrmm + acrescimo)
+        total = (cif + ii + ipi + pis + cofins + siscomex + afrmm)
         calcbase = round(float(total / fatorbase), 2)
-        baseicms_dict.update({adicao: calcbase})
-    return baseicms_dict
-bcicms_global = getBCIcmsAdicao()
+        base_icms_dict.update({adicao: calcbase})
+    return base_icms_dict
+bcicms_global = getBCIcmsAdicao() # Variável global que armazena os valores de base de ICMS por adição
+
 
 def getVrIcmsAdicao():
+    # Função que calcula e retorna o valor de ICMS de cada adição.
     aliquota = aliqicms_global
-    vricms_dict = dict()
+    vr_icms_dict = dict()
     c = 1
-    for baseicms, aliquota in zip(bcicms_global.values(), aliquota.values()):
-        vricms_dict.update({c: round(float(baseicms * (aliquota * 0.01)), 2)})
+    for base_icms, aliquota in zip(bcicms_global.values(), aliquota.values()):
+        vr_icms_dict.update({c: round(float(base_icms * (aliquota * 0.01)), 2)})
         c += 1
-    return vricms_dict
+    return vr_icms_dict
+
 
 def getPesoLiq():
-    getunmedida = nfe.getElementsByTagName('dadosMercadoriaMedidaEstatisticaUnidade')
-    getpesoliq = nfe.getElementsByTagName('dadosMercadoriaPesoLiquido')
-    unmedida_dict = dict()
-    pesoliq_dict = dict()
+    # Função que retorna as informações de peso líquido e unidade de medida estatística dos itens das adições.
+    get_un_medida = nfe.getElementsByTagName('dadosMercadoriaMedidaEstatisticaUnidade')
+    get_peso_liq = nfe.getElementsByTagName('dadosMercadoriaPesoLiquido')
+    un_medida_dict = dict()
+    peso_liq_dict = dict()
     c = 0
-    for i, ii in zip(getunmedida, getpesoliq):
-        if getunmedida[c].firstChild.data == 'QUILOGRAMA LIQUIDO':
-            unmedida_dict.update({c + 1: 'KG'})
-        if getunmedida[c].firstChild.data == 'UNIDADE':
-            unmedida_dict.update({c + 1: 'UN'})
-        pesoliq_dict.update({c + 1: float(getpesoliq[c].firstChild.data[:10] + "." + getpesoliq[c].firstChild.data[-5:])})
+    for i, ii in zip(get_un_medida, get_peso_liq):
+        if get_un_medida[c].firstChild.data == 'QUILOGRAMA LIQUIDO':
+            un_medida_dict.update({c + 1: 'KG'})
+        if get_un_medida[c].firstChild.data == 'UNIDADE':
+            un_medida_dict.update({c + 1: 'UN'})
+        peso_liq_dict.update({c + 1: float(get_peso_liq[c].firstChild.data[:10] + "."
+                                           + get_peso_liq[c].firstChild.data[-5:])})
         c += 1
-    return unmedida_dict, pesoliq_dict
+    return un_medida_dict, peso_liq_dict
+
 
 def getVrProdutosNotaAdicao():
+    # Função que retorna o cálculo do valor final dos produtos. Normalmente esse valor final é calculado pelos
+    # despachantes somando o valor CIF + o valor do II.
     adicoes = getNrAdicao().values()
-    vrcif = getCIFAdicao().values()
-    vrii = getVrIIAdicao().values()
-    vracrescimo = getVrAcrescimoAdicao().values()
-    vrprodutosnota_dict = dict()
+    vr_cif = getCIFAdicao().values()
+    vr_ii = getVrIIAdicao().values()
+    vr_produtos_nota_dict = dict()
+    for adicao, cif, ii in zip(adicoes, vr_cif, vr_ii):
+        soma = round(float(cif + ii), 2)
+        vr_produtos_nota_dict.update({adicao: soma})
 
-    for adicao, cif, ii, acrescimo in zip(adicoes, vrcif, vrii, vracrescimo):
-        soma = round(float(cif + ii + acrescimo), 2)
-        vrprodutosnota_dict.update({adicao: soma})
+    return vr_produtos_nota_dict
 
-    return vrprodutosnota_dict
 
 def totaisAdicaoToDataFrame():
+    # Função para criar os dfs de cada coluna e no final gera o df concatenando todas as colunas.
     df0 = pd.DataFrame(getNCMAdicao().items()).rename(columns={0: "Adição", 1: "NCM"}).set_index("Adição")
     df1 = pd.DataFrame(getPesoLiq()[0].items()).rename(columns={0: "Adição", 1: "UnMedida"}).set_index("Adição")
     df2 = pd.DataFrame(getPesoLiq()[1].items()).rename(columns={0: "Adição", 1: "PesoLiq"}).set_index("Adição")
-    df3 = pd.DataFrame(getVrProdutosXmlAdicao().items()).rename(columns={0: "Adição", 1: "VrProdutosXml"}).set_index("Adição")
+    df3 = pd.DataFrame(getVrProdutosXmlAdicao().items()).rename(columns={0: "Adição", 1: "VrProdutosXml"})\
+        .set_index("Adição")
     df4 = pd.DataFrame(getVrProdutosNotaAdicao().items()).rename(columns={0: "Adição", 1: "VrProdutosNota"}).set_index(
         "Adição")
     df5 = pd.DataFrame(getVrFreteAdicao().items()).rename(columns={0: "Adição", 1: "FreteR$"}).set_index("Adição")
@@ -483,7 +545,8 @@ def totaisAdicaoToDataFrame():
         "Adição")
     df15 = pd.DataFrame(getAliqPisAdicao().items()).rename(columns={0: "Adição", 1: "AliqPis"}).set_index("Adição")
     df16 = pd.DataFrame(getVrPisAdicao().items()).rename(columns={0: "Adição", 1: "VrPis"}).set_index("Adição")
-    df17 = pd.DataFrame(getAliqCofinsAdicao().items()).rename(columns={0: "Adição", 1: "AliqCofins"}).set_index("Adição")
+    df17 = pd.DataFrame(getAliqCofinsAdicao().items()).rename(columns={0: "Adição", 1: "AliqCofins"})\
+        .set_index("Adição")
     df18 = pd.DataFrame(getVrCofinsAdicao().items()).rename(columns={0: "Adição", 1: "VrCofins"}).set_index("Adição")
     df19 = pd.DataFrame(afrmm_global.items()).rename(columns={0: "Adição", 1: "AFRMM"}).set_index("Adição")
     df20 = pd.DataFrame(getVrAcrescimoAdicao().items()).rename(columns={0: "Adição", 1: "VrAcrescimo"}).set_index(
@@ -497,5 +560,3 @@ def totaisAdicaoToDataFrame():
                     df18, df19, df20, df21, df22, df23],
                    axis=1, sort=True)
     return df
-
-# totaisAdicaoToDataFrame().to_excel("totaisAdicao.xlsx", sheet_name='DI')

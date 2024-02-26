@@ -2,98 +2,115 @@
 
 import pandas as pd
 from source import ReadXML
-from PorAdicao import getBcPisCofinsTotal, getNrAdicao, afrmm_global, getVrSiscomexAdicao, getBcIIAdicao, \
-    getVrIIAdicao, getBcPisCofinsAdicao, getVrPisAdicao, getVrCofinsAdicao, getVrIpiAdicao, getVrFreteAdicao, \
-    getSeguroAdicao, getVrAcrescimoAdicao, bcicms_global, getVrIcmsAdicao, getVrProdutosXmlAdicao, getVrProdutosNotaAdicao
+from PorAdicao import afrmm_global, getVrSiscomexAdicao, getBcIIAdicao, \
+    getVrIIAdicao, getBcPisCofinsAdicao, getVrPisAdicao, getVrCofinsAdicao, \
+    getVrIpiAdicao, getVrFreteAdicao, getSeguroAdicao, getVrAcrescimoAdicao, \
+    bcicms_global, getVrIcmsAdicao, getVrProdutosXmlAdicao, getVrProdutosNotaAdicao
 
 # Variável com o XML parseado
 nfe = ReadXML.nfe
 
 # Dados gerais da nota
 def getTotalAdicoes():
+    # Função que coleta e retorna o valor total de adições da DI
     get = nfe.getElementsByTagName('totalAdicoes')
-    totalAdicoes = int(get[0].firstChild.data)
-    return totalAdicoes
+    total_adicoes = int(get[0].firstChild.data)
+    return total_adicoes
 
 # Valores únicos
 
 def getinformacaoComplementar():
+    # Função que coleta e retorna os valores dentro da tag de informações complementares
     get = nfe.getElementsByTagName('informacaoComplementar')
-    informacaoComplementar = get[0].firstChild.data
-    return informacaoComplementar
+    informacao_complementar = get[0].firstChild.data
+    return informacao_complementar
 
 def getValorTotalFrete():
+    # Função que coleta e retorna o valor total de frete
     get = nfe.getElementsByTagName('freteTotalReais')
-    valorFrete = float(get[0].firstChild.data[:13] + "." + get[0].firstChild.data[-2:])
-    return valorFrete
+    valor_frete = float(get[0].firstChild.data[:13] + "." + get[0].firstChild.data[-2:])
+    return valor_frete
 
 def getMoedaNegociadaFrete():
-    getMoedaNegociada = nfe.getElementsByTagName('freteMoedaNegociadaNome')
-    moedaNegociada = getMoedaNegociada[0].firstChild.data
-    return moedaNegociada
+    # Função que coleta e retorna o nome da moeda estrangeira utilizada na negociação do frete - Ex: DOLAR US
+    get_moeda_negociada = nfe.getElementsByTagName('freteMoedaNegociadaNome')
+    moeda_negociada = get_moeda_negociada[0].firstChild.data
+    return moeda_negociada
 
 def getVrFreteMoedan():
+    # Função que coleta e retorna o valor total do frete na moeda estrangeira utilizada na negociação do frete
     get = nfe.getElementsByTagName('freteTotalMoeda')
     value = get[0].firstChild.data
     if len(value) == 4:
-        valorFrete = float(get[0].firstChild.data[:2] + "." + get[0].firstChild.data[-2:])
+        valor_frete = float(get[0].firstChild.data[:2] + "." + get[0].firstChild.data[-2:])
     if len(value) == 5:
-        valorFrete = float(get[0].firstChild.data[:3] + "." + get[0].firstChild.data[-2:])
+        valor_frete = float(get[0].firstChild.data[:3] + "." + get[0].firstChild.data[-2:])
     if len(value) == 6:
-        valorFrete = float(get[0].firstChild.data[:4] + "." + get[0].firstChild.data[-2:])
+        valor_frete = float(get[0].firstChild.data[:4] + "." + get[0].firstChild.data[-2:])
     if len(value) == 7:
-        valorFrete = float(get[0].firstChild.data[:5] + "." + get[0].firstChild.data[-2:])
+        valor_frete = float(get[0].firstChild.data[:5] + "." + get[0].firstChild.data[-2:])
     if len(value) == 8:
-        valorFrete = float(get[0].firstChild.data[:6] + "." + get[0].firstChild.data[-2:])
+        valor_frete = float(get[0].firstChild.data[:6] + "." + get[0].firstChild.data[-2:])
     if len(value) == 9:
-        valorFrete = float(get[0].firstChild.data[:7] + "." + get[0].firstChild.data[-2:])
-    return valorFrete
+        valor_frete = float(get[0].firstChild.data[:7] + "." + get[0].firstChild.data[-2:])
+    return valor_frete
 
 def getValorCambioMoedaFrete():
-    vrfretemoeda = getVrFreteMoedan()
-    vrfretereais = getValorTotalFrete()
-    vrcambiofrete = round((vrfretereais / vrfretemoeda), 4)
-    return vrcambiofrete
+    # Função que coleta e retorna o valor de cotação da moeda estrangeira utilizada na negociação do frete
+    # Dividindo o valor total do frete em reais pelo valor total do frete na moeda negociada
+    vr_frete_moeda = getVrFreteMoedan()
+    vr_frete_reais = getValorTotalFrete()
+    vr_cambio_frete = round((vr_frete_reais / vr_frete_moeda), 4)
+    return vr_cambio_frete
 
 def getMoedaNegociadaProd():
-    getMoedaNegociada = nfe.getElementsByTagName('condicaoVendaMoedaNome')
-    moedaNegociada = getMoedaNegociada[0].firstChild.data
-    return moedaNegociada
+    # Função que coleta e retorna o nome da moeda estrangeira utilizada na negociação dos produtos - Ex: DOLAR US
+    get_moeda_negociada = nfe.getElementsByTagName('condicaoVendaMoedaNome')
+    moeda_negociada = get_moeda_negociada[0].firstChild.data
+    return moeda_negociada
 
-def getCambioMoedaProd():#Dividindo o valor da tag condicaoVendaValorReais pelo da tag condicaoVendaValorMoeda
-    getVrMoedaNegociada = nfe.getElementsByTagName('condicaoVendaValorMoeda')
-    vrMoedaNegociada = float(getVrMoedaNegociada[0].firstChild.data[:13] + "." + getVrMoedaNegociada[0].firstChild.data[-2:])
-    getVrReais = nfe.getElementsByTagName('condicaoVendaValorReais')
-    vrReais = float(getVrReais[0].firstChild.data[:13] + "." + getVrReais[0].firstChild.data[-2:])
-    vrMoedaNegociada = round((vrReais / vrMoedaNegociada), 4)
-    return vrMoedaNegociada
+def getCambioMoedaProd():
+    # Função que coleta e retorna o valor de cotação da moeda estrangeira utilizada na negociação do frete
+    # Dividindo o valor da tag condicaoVendaValorReais pelo da tag condicaoVendaValorMoeda
+    get_vr_moeda_negociada = nfe.getElementsByTagName('condicaoVendaValorMoeda')
+    vr_moeda_negociada = float(get_vr_moeda_negociada[0].firstChild.data[:13] + "." + get_vr_moeda_negociada[0].firstChild.data[-2:])
+    get_vr_reais = nfe.getElementsByTagName('condicaoVendaValorReais')
+    vr_reais = float(get_vr_reais[0].firstChild.data[:13] + "." + get_vr_reais[0].firstChild.data[-2:])
+    vr_moeda_negociada = round((vr_reais / vr_moeda_negociada), 4)
+    return vr_moeda_negociada
 
 def getPesoBrutoTotal():
+    # Função que retorna o valor do peso bruto total
     get = nfe.getElementsByTagName('cargaPesoBruto')
-    pesoBTotal = float(get[0].firstChild.data[:10] + "." + get[0].firstChild.data[-5:])
-    return pesoBTotal
+    peso_b_total = float(get[0].firstChild.data[:10] + "." + get[0].firstChild.data[-5:])
+    return peso_b_total
 
 def getPesoLiquidoTotal():
+    # Função que retorna o valor do peso líquido total
     get = nfe.getElementsByTagName('cargaPesoLiquido')
-    pesoLTotal = float(get[0].firstChild.data[:10] + "." + get[0].firstChild.data[-5:])
-    return pesoLTotal
+    peso_l_total = float(get[0].firstChild.data[:10] + "." + get[0].firstChild.data[-5:])
+    return peso_l_total
 
 def getVMLE():
+    # Função que retorna o valor total do VMLE
     get = nfe.getElementsByTagName('localEmbarqueTotalReais')
-    valorVMLE = float(get[0].firstChild.data[:13] + "." + get[0].firstChild.data[-2:])
-    return valorVMLE
+    valor_vmle = float(get[0].firstChild.data[:13] + "." + get[0].firstChild.data[-2:])
+    return valor_vmle
 
 def getVMLD():
+    # Função que retorna o valor do VMLD
     get = nfe.getElementsByTagName('localDescargaTotalReais')
-    valorVMLD = round(float(get[0].firstChild.data[:13] + "." + get[0].firstChild.data[-2:]), 2)
-    return valorVMLD
+    valor_vmld = round(float(get[0].firstChild.data[:13] + "." + get[0].firstChild.data[-2:]), 2)
+    return valor_vmld
 
 def getLocalDesambarque():
+    # Função que retorna o local de desembarque da mercadoria no Brasil
     get = nfe.getElementsByTagName('cargaUrfEntradaNome')
-    localdesembarque = get[0].firstChild.data
-    return localdesembarque
+    local_desembarque = get[0].firstChild.data
+    return local_desembarque
 
 def valoresTotaisToDataFrame():
+    # Função para criar os dfs de cada coluna e no final gera o df concatenando todas as colunas
     df0 = pd.DataFrame({"Adições": [getTotalAdicoes()]})
     df1 = pd.DataFrame({"Moeda - Produtos": [getMoedaNegociadaProd()]})
     df2 = pd.DataFrame({"Cotação R$ - Produtos": [getCambioMoedaProd()]})
@@ -120,38 +137,3 @@ def valoresTotaisToDataFrame():
                     df18, df19, df20, df21],
                    axis=1, sort=True).set_index('Adições')
     return df
-
-def valoresTotaisToDataFrame2():
-    data = {
-        "Adições": [getTotalAdicoes()],
-        "Moeda - Produtos": [getMoedaNegociadaProd()],
-        "Cotação R$ - Produtos": [getCambioMoedaProd()],
-        "Moeda - Frete": [getMoedaNegociadaFrete()],
-        "Cotação R$ - Frete": [getValorCambioMoedaFrete()],
-        "VMLE": [getVMLE()],
-        "VMLD": [getVMLD()],
-        "Frete R$": [round(float(sum(getVrFreteAdicao().values())), 2)],
-        "Seguro R$": [round(float(sum(getSeguroAdicao().values())), 2)],
-        "ProdutosXML": [round(float(sum(getVrProdutosXmlAdicao().values())), 2)],
-        "ProdutosNota": [round(float(sum(getVrProdutosNotaAdicao().values())), 2)],
-        "BcII": [round(float(sum(getBcIIAdicao().values())), 2)],
-        "VrII": [round(float(sum(getVrIIAdicao().values())), 2)],
-        "BcPisCofins": [round(float(sum(getBcPisCofinsAdicao().values())), 2)],
-        "VrPIS": [round(float(sum(getVrPisAdicao().values())), 2)],
-        "VrCofins": [round(float(sum(getVrCofinsAdicao().values())), 2)],
-        "VrIpi": [round(float(sum(getVrIpiAdicao().values())), 2)],
-        "Siscomex": [round(float(sum(getVrSiscomexAdicao().values())), 2)],
-        "AFRMM": [round(float(sum(afrmm_global.values())), 2)],
-        "Acréscimo": [round(float(sum(getVrAcrescimoAdicao().values())), 2)],
-        "BcICMS": [round(float(sum(bcicms_global.values())), 2)],
-        "VrICMS": [round(float(sum(getVrIcms().values())), 2)]
-    }
-
-    df = pd.DataFrame(data).set_index('Adições')
-    return df
-
-# valoresTotaisToDataFrame2().to_excel("ValoresTotais.xlsx", sheet_name='Totais')
-
-
-# valoresTotaisToDataFrame().to_excel("ValoresTotais.xlsx", sheet_name='Totais')
-# 
